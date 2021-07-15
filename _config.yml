@@ -1,11 +1,12 @@
-title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Raghavendra Kaushik
+email: rka87338@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Informal notes written while exploring various things
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username:  rakaar
+
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -51,9 +52,16 @@ minima:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
+title-separator: "-"
+permalink: /posts/:year-:month-:day-:title/
+
 
 # Build settings
 theme: minima
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 
 plugins:
  - jekyll-feed
