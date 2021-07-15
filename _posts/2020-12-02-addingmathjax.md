@@ -7,6 +7,7 @@ categories: [random]
 usemathjax: true
 ---
 
+**Update: A simpler method to include mathjax in Jekyll blogs can be found here - http://webdocs.cs.ualberta.ca/~zichen2/blog/coding/setup/2019/02/17/how-to-add-mathjax-support-to-jekyll.html**
 If you have a blog, hosted on github pages where you adding your posts in markdown(like most of the blogs built using Jekyll have), here is how you can write math using latex in your blogs. 
 
 ### Step 1
@@ -17,12 +18,12 @@ The value of `inlineMath` key in the above code, means you must write your latex
 
 ### Step 2
 In `_layouts/base.html`, you need to include `mathjax.html` in the way shown in below image.(You can refer [this](https://github.com/rakaar/rakaar.github.io/blob/master/_layouts/base.html))
-![Including mathjax.html](/img/include.png)
+![Including mathjax.html](https://imgur.com/JEPE5Nr.png)
 
 
 ### Step 3
 Finally in the blog post, where you want mathjax to do its job. Include `mathjax: true` in the top of every post alongside the title, subtitle and tags, for example for this blog post, it would be something like this
-![Include something like this at the top of the your post file - XYZ.md](/img/top-mathjax.png)
+![Include something like this at the top of the your post file - XYZ.md](https://i.ibb.co/tM7mXd2/top-mathjax.png)
 
 ## Testing
 Pythogorean theorem $$x^2 + y^2 = z^2$$
