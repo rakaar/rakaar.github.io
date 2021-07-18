@@ -15,11 +15,10 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
 ## Letters
 
 - [Don't Remain Nameless by Richard Feynman](https://fs.blog/2014/08/richard-feynman-what-problems-to-solve/): My all time favourite letter. 
-
   - *No problem is too small or trivial if we can really do something about it*
-
+  
   - *Do not remain nameless to yourself – it is too sad a way to be. Know your place in the world and evaluate yourself fairly, not in terms of your naive ideals of your own youth*
-
+  
 - [Abraham Lincoln's letter to his son's teacher:](https://englishbookgeorgia.com/blogebg/a-letter-from-abraham-lincoln-to-his-sons-teacher/)
   - *Teach him to have faith in his own ideas, even if every one tell him they are wrong.*
   - *Teach him that for every enemy, there is a friend. He will have to know that all men are not just, that all men are not true. But teach him also that for every scoundrel there is a hero, that for every crooked politician, there is a dedicated leader.*
@@ -43,9 +42,57 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
 
   > Be curious. Read widely. Try new things. I think a lot of what people call intelligence just boils down to curiosity.
 
-- [Richard Stallman](https://stallman.org/): Leaving your stable day job to start something new and revolutionary about what you believe in is really inspiring about RMS!
+- [Richard Stallman](https://stallman.org/): Leaving a stable day job to start something new and revolutionary about what you believe in is really inspiring about RMS!
 
-- Grant Sanderson: 
+- [Grant Sanderson](https://www.3blue1brown.com/): Grant's maths animated videos have literally changed lives. He has also open sourced *[manim](https://github.com/3b1b/manim)*, his math animation library, which he uses to make videos. Many other YouTubers are now using manim to make Quality math videos. Its no exaggeration to say that Grant has set a high standard on Open Education!
 
-  
+- Albert Einstein: Seems a cliche example, but I got to know well about Einstein after reading his biography by Walter Isaacson([My blog on why you too should read it](https://rakaar.github.io/posts/2021-03-01-einstein-book/)). Einstein's originality, disrespect for authority, passion for science are the qualities that I admire. [Paul Dirac on Einstein](https://www.youtube.com/watch?v=JZAISWKj3Pk) - *he wasn't really trying to construct theories to agree with observation, so many people do that. Einstein worked quite differently he tried to imagine if I were God would I have made the world like this. And according to the answer to that question he would decide on whether he lacked a particular theory or not*.
 
+- Richard Feynman: Another cliche example. But knowing about Feynman is kind of addiction. Feynman had lived one heck of a cool life. But amazing qualities of Feynman, which I love are
+
+  - Being joyful in discovering things from scratch, no matter if they are done already, or if they matter. Find it our because you the process of discovering gives you a kick!
+  - No baloney - Feynman hated baloney whether it be physics or philosophy. Watch this [talk](https://www.youtube.com/watch?v=6Waurx8e-1o) about Feynman by Leonard Susskind.
+  - I feel Feynman was one of the rare humans who understood meaning of love and life. Feynman married his lover, despite knowing that she would die from Tuberculosis soon. Read [this cathartic letter](https://www.openculture.com/2013/08/richard-feynmans-letter-to-departed-wife.html) by Feynman, written in memory of Arlene. [Feynman's letter](https://fs.blog/2014/08/richard-feynman-what-problems-to-solve/) on not to remain nameless.
+
+## Philosophical Laws/Razors/Ideas
+
+- **Hofstadter's Law**: It always takes longer than you expect, even when you take into account Hofstadter's Law
+- **Ockam's razor**: The simplest explanation is usually the best one
+- [**The Dragon in My Garage**](https://www.youtube.com/watch?v=jJRy3Kl_z5E): Carl Sagan's story to explain Karl Popper's Falsification Principle -  for a theory to be considered scientific it must be able to be tested and conceivably proven false.
+
+## Theorems
+
+- **Godel's first incompleteness theorem:** In any system, just by logic one cannot create a complete list of true statements. It depicts inherent limits of Logic.
+- **Rice theorem**: all non-trivial, semantic properties of programs are undecidable. It has an interesting consequence - it is impossible to detect build a perfect virus detector.
+
+## Quotes:
+
+- ***The best advice is not to listen to any advice including this one - Anonymous***
+  - The self-referential quote perfectly describes that there is no way to detect what is a good advice. Do what suits the problem. Be aware of all the parameters, weigh them carefully, judge only after thinking well. Not all people give useful advice. One should always notice whether he/she is giving advice based on knowledge or experience or emotions.
+- ***Study hard what interests you the most in the most undisciplined, irreverent and original manner possible - Feynman***
+  - The above line best describes how non linear learning curve can be in most of fields. Don't expect a smooth ride always!
+- ***Man is a creature that can get used to anything, and I think that is the best definition of him*** - **Fyodor Dostoevsky**
+
+- ***We suffer more often in imagination that in reality - Seneca***
+  - Best depicted by the [Underground man by Dostoevsky](https://rakaar.github.io/posts/2021-05-14-on-notes-from-underground/).
+
+## Images
+
+- The pale blue dot
+
+  ![Pale blue dot from wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/73/Pale_Blue_Dot.png)
+
+  *Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there--on a mote of dust suspended in a sunbeam* 
+
+  *- Carl Sagan*
+
+## Manifesto
+
+- [Guerilla Open Access Manifesto](https://openaccessmanifesto.wordpress.com/guerilla-open-access-manifesto/): Open information and open knowledge!
+
+## Websites
+
+- https://motherfuckingwebsite.com/
+  - Sites that just load static content are becoming too heavy. The above website expresses the point in a hilarious fashion
+- http://wisdomofchopra.com/
+  - An innovative site to fight pseudo science and baloney!
