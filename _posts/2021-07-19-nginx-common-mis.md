@@ -31,6 +31,8 @@ Nginx job is to listen to port 80, but when you tried to restart it, it failed b
 1. Stop `apache2` - `sudo service apache2 stop`
 2. Disable using `systemctl` - `sudo systemctl disable apache2`
 
+or it can be done in one line - `sudo systemctl disable --now apache2`, this will both stop and disable `apache2`.
+
 Now you can start nginx successfully
 
 ![nginx running](https://imgur.com/ANypnS9.png)
