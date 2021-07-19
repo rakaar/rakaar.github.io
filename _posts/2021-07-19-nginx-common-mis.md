@@ -45,7 +45,9 @@ You have your nginx configuration in a separate file,say `your-domain.com`, (whi
 
 This is because the configuration in `default` file in `/etc/nginx/sites-available` is given priority over your configuration, which is written in separate file. To disable the `Ubunut default page`, you can simply remove the symlink of `default` using `unlink` in `/etc/nginx/sites-enabled` directory using - `sudo unlink /etc/nginx/sites-available/default`.
 
+## Apendinx
 
+This happened to me twice till now - once while working on [KWoC](https://kwoc.kossiitkgp.org/), the other time on [project-ias](https://projectias.neera.ai/). Thanks to [Mukul Mehta](https://mukul-mehta.in/), for explaining the cause of error during KWoC. I was lucky to be present in the call as a mere spectator, when he was fixing this.
 
 
 
