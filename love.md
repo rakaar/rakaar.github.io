@@ -94,5 +94,9 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
 
 - https://motherfuckingwebsite.com/
   - Sites that just load static content are becoming too heavy. The above website expresses the point in a hilarious fashion
+- https://a9.io/glue-comic/
+  - Looking into the cognitive aspects of conversation
+- https://hemingwayapp.com/
+  - Tool to help you write better
 - http://wisdomofchopra.com/
   - An innovative site to fight pseudo science and baloney!
