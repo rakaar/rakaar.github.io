@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Use-Rss
+title: Use-RSS
 permalink: /use_rss/
 ---
 
