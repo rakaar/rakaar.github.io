@@ -16,9 +16,9 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 - [Implementing Spellcheck](https://www.evernote.com/shard/s367/sh/ef080fcc-b805-8d29-7216-1fbd32be7222/521b50680a852352a046567a0ee98c2a)
 
-- [Dostoevsky](https://www.evernote.com/shard/s367/sh/c8145241-e9e5-353d-8142-15199e024d21/)
+- [Dostoevsky](https://www.evernote.com/shard/s367/sh/c8145241-e9e5-353d-8142-15199e024d21/9f2ae2228e5ca4edaf1f84ffbe83b9e5)
 
-- [Aaron Swartz](https://www.evernote.com/shard/s367/sh/435a174b-1458-819b-4050-7bca54e52333/)
+- [Aaron Swartz](https://www.evernote.com/shard/s367/sh/435a174b-1458-819b-4050-7bca54e52333/3fa6b2d12c79172f31a0e3b42380bec3)
 
 - [Science Interesting](https://www.evernote.com/shard/s367/sh/c43df65d-ffff-4bd3-5f30-82d5f54a8b22/6f1e48c97b224ee652c89e51bf620b1f)
 
