@@ -66,17 +66,15 @@ Aaron: Think deeply about things. Don’t just go along because that’s the way
 
 ### [Jefferson: Nature Wants Information to Be Free  (Age-17)](http://www.aaronsw.com/weblog/001115)
 
->  Since many have said that my view of copyright and patent law is childish and held merely because I grew up with Napster and do not write for a living, I thought I’d investigate some more respectable views on the subject
+Since many have said that my view of copyright and patent law is childish and held merely because I grew up with Napster and do not write for a living, I thought I’d investigate some more respectable views on the subject
 
 - Judging from his letter to Isaac McPherson, Jefferson’s thoughts are thus: 
 
-  ```
-  No one seriously disputes that property is a good idea, but it’s bizarre to suggest that ideas should be property. Nature clearly wants ideas to be free! While you can keep an idea to yourself, as soon as you share it anyone can have it. And once they do, it’s difficult for them to get rid of it, even if they wanted to. Like air, ideas are incapable of being locked up and hoarded.
-  
-  And no matter how many people share it, the idea is not diminished. When I hear your idea, I gain knowledge without diminishing anything of yours. In the same way, if you use your candle to light mine, I get light without darkening you. Like fire, ideas can encompass the globe without lessening their density.
-  
-  Thus, inventions cannot be property. Sure, we can give inventors an exclusive right to profit, perhaps to encourage them to invent new useful things, but this is our choice. If we decide not to, nobody can object.
-  ```
+> No one seriously disputes that property is a good idea, but it’s bizarre to suggest that ideas should be property. Nature clearly wants ideas to be free! While you can keep an idea to yourself, as soon as you share it anyone can have it. And once they do, it’s difficult for them to get rid of it, even if they wanted to. Like air, ideas are incapable of being locked up and hoarded.
+> 
+> And no matter how many people share it, the idea is not diminished. When I hear your idea, I gain knowledge without diminishing anything of yours. In the same way, if you use your candle to light mine, I get light without darkening you. Like fire, ideas can encompass the globe without lessening their density.
+>
+> Thus, inventions cannot be property. Sure, we can give inventors an exclusive right to profit, perhaps to encourage them to invent new useful things, but this is our choice. If we decide not to, nobody can object.
 
   (I am not directly quoting Jefferson here, I am translating what he said to modern English and omitting a bit, but I have not put any words in his mouth—Jefferson said all these things.)
 
