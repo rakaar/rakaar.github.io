@@ -12,6 +12,10 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
 
+- [Ava from Bookbear Express](https://www.evernote.com/shard/s367/sh/959b0d37-5d72-0757-2689-043d19bcb6dc/cfb812151247e88c78ab1125303a9dad)
+
+- [To be Read](https://www.evernote.com/shard/s367/sh/32b23265-ee33-8e63-d96c-8c13195c1f25/d2669d30dac65869484090f35126a011)
+
 - [List of Free and Open Resources to Learn Science](https://www.evernote.com/shard/s367/sh/18e5c02f-58c8-da67-89e5-20af84a3a3b3/fb775947180b391d9b0140679efe2db2)
 
 - [Implementing Search in your app](https://www.evernote.com/shard/s367/sh/e285d6fb-6db2-4fe4-5336-6948b4410f81/39d60bb6ebfedd8a8c2097b2df8d249d)
