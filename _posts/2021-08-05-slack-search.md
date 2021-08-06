@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collapse of a Grand Plan
-subtitle: An attempt to liberate hidden useful discussions 
+subtitle: An attempt to liberate hidden useful discussions
 date: 2021-08-05
 categories: [programming]
 ---
@@ -10,13 +10,11 @@ The current blog explains the journey of an ambitious task from idea to failure.
 
 If you are someone interested in the idea of [making useful discussions open](https://rakaar.github.io/posts/2021-07-01-useful-discussions-open/), that is you don't like the idea of discussions behind authenticated walls and are planning to work on this problem, you can skip to `Lessons Learned` section to know the important things that you need to keep in mind.
 
-The story is from my point of view. I apologise in advance for any biased text.
-
 ## Noticing the problem
 
 When I was exploring Quantum Computing, I once had a simple specific query - "How to measure m qubits out of n qubits". I knew there was a small change needed to be made in `qc.measure()` function. But even after checking the documentation and googling for an hour, I still couldn't find the answer. So, at the end I had asked in Qiskit Slack, and a kind man by name [Jack Woehr](https://github.com/jwoehr) answered it. 
 
-But then I thought - what if someone else in future had googled the same problem? Then [zher](https://stallman.org/articles/genderless-pronouns.html) wouldn't find the answer in search results, because the answer is behind an authenticated wall(Qiskit Slack Workspace in this case). So, to solve that I wrote [a blog](https://rakaar.github.io/posts/2021-02-12-measure-m-outof-n/) on my website, answering the problem.
+But then I thought - what if someone else in future had googled the same problem? Then she/he wouldn't find the answer in search results, because the answer is behind an authenticated wall(Qiskit Slack Workspace in this case). So, to solve that I wrote [a blog](https://rakaar.github.io/posts/2021-02-12-measure-m-outof-n/) on my website, answering the problem.
 
 Though I felt felt this was a serious problem, I didn't give much thought to it as I was interested in other fields at that time! 
 
@@ -26,7 +24,7 @@ After several months, I joined [Neera.ai](http://neera.ai/) as an intern. If you
 
 So, in the initial weeks, I and [Sahil](https://sahil-shubham.in/) worked on providing search in Pocket, Notion and Google Drive Documents at Neera. At neera, new third party tools were used to solve common problems to avoid re-inventing the wheel. For example [Supertokens](https://supertokens.io/) was used for authentication and [Supabase](https://supabase.io/) was used for Database Hosting. Both these tools had their own discord servers. Developers use to post their queries in relevant public channels and would get the reply within minutes.
 
-I liked how fast people got response to their queries and how discord interface was convenient for exchanging information at a faster rate. But none of the discussions would appear as a search result on any search engine. This reminded me of the problem that I had noticed many months before. I felt that sooner all the queries related to such tools will be on discord. Slack workspaces and Discord servers were replacing Open forums like Reddit and Stackoverflow. So, when someone searches a query, zhe won't find it in the search results. They have to join the server and re-ask the question. 
+I liked how fast people got response to their queries and how discord interface was convenient for exchanging information at a faster rate. But none of the discussions would appear as a search result on any search engine. This reminded me of the problem that I had noticed many months before. I felt that sooner all the queries related to such tools will be on discord. Slack workspaces and Discord servers were replacing Open forums like Reddit and Stackoverflow. So, when someone searches a query, she/he won't find it in the search results. They have to join the server and re-ask the question. 
 
 I felt that this was a serious problem, I also wrote a blog about it on my site - [Useful discussions should be open](https://rakaar.github.io/posts/2021-07-01-useful-discussions-open/), where I had recommended that online communities should communicate on subreddits, as opposed to popular practice of using Discord Servers and Slack Workspaces. I argued in the blog that the useful discussions are too important to be behind Authenticated walls.
 
@@ -40,7 +38,7 @@ But unfortunately, slack doesn't provide the access to search endpoint, if user 
 
 We built the "Neera Search" Slack app with minimum scopes. The app could only read messages in Public channels, search messages in Public channels. No write access was given to the app. When the app is installed via OAuth2 in Useful workspaces, any Neera user will be able to search through the slack messages. We felt that it had liberated the knowledge in these workspaces by smashing the authentication walls.
 
-But in one of the meetings, a question frightened us - what if some user adds zher private slack workspace unknowingly. Not all workspaces have a public invitation link. There are some workspaces, which are intended for private discussions. We didn't wanted such messages to be made publicly searchable. To prevent this, we decided that we would manually  install the app in the workspace by ourselves from a slack account, made by Neera. We will obviously be able to join Workspaces, whose invitation links are public. Hence, the risk of adding some private workspace messages being searchable is now zero. 
+But in one of the meetings, a question frightened us - what if some user adds her/his private slack workspace unknowingly. Not all workspaces have a public invitation link. There are some workspaces, which are intended for private discussions. We didn't wanted such messages to be made publicly searchable. To prevent this, we decided that we would manually  install the app in the workspace by ourselves from a slack account, made by Neera. We will obviously be able to join Workspaces, whose invitation links are public. Hence, the risk of adding some private workspace messages being searchable is now zero. 
 
 At the time of releasing the feature of Slack search, we added 2 open Slack workspaces - [Metakgp](https://metakgp.github.io/) workspace and [Kharagpur Winter of Code](http://kwoc.kossiitkgp.org/) Workspace. Our next aim was to include popular workspaces that are popular among developer communities. Some of my friends suggested CNCF Slack and Gopher Slack. These workspaces are too large. The number of people in both the workspaces individually is more than 40 thousand. In both the workspaces, there were many technical discussions going on. We were very excited at the idea that all these discussions could be made available easily just with one search in Neera.
 
