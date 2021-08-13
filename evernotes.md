@@ -12,6 +12,12 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
 
+- [Interesting Documentaries/Movies to watch](https://www.evernote.com/shard/s367/sh/0027804a-e545-9aed-da8e-3b03b1324428/25d98672a8da5cee456a1328cb832771)
+
+- [Words Collection](https://www.evernote.com/shard/s367/sh/9cfef0e1-9c92-f27b-4f63-9a0d57cf1656/bf0abf29d9aa926f67c8a77da2337e51)
+
+- [Anthropocene Reviewed by John Green](https://www.evernote.com/shard/s367/sh/cdbb454d-5c8d-3e0c-59b5-9ca9a4d68c03/504df245ad323d890aba9b6a248585ad)
+
 - [Ava from Bookbear Express](https://www.evernote.com/shard/s367/sh/959b0d37-5d72-0757-2689-043d19bcb6dc/cfb812151247e88c78ab1125303a9dad)
 
 - [To be Read](https://www.evernote.com/shard/s367/sh/32b23265-ee33-8e63-d96c-8c13195c1f25/d2669d30dac65869484090f35126a011)
