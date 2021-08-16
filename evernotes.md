@@ -12,6 +12,8 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
 
+- [List of Resources to motivate you to write](https://www.evernote.com/shard/s367/sh/989bcb5b-fd8f-a78c-0d7c-da3ae2b0b712/fa52fa2cb9e438e4c17b0cf59f395a52)
+
 - [Interesting Documentaries/Movies to watch](https://www.evernote.com/shard/s367/sh/0027804a-e545-9aed-da8e-3b03b1324428/25d98672a8da5cee456a1328cb832771)
 
 - [Words Collection](https://www.evernote.com/shard/s367/sh/9cfef0e1-9c92-f27b-4f63-9a0d57cf1656/bf0abf29d9aa926f67c8a77da2337e51)
