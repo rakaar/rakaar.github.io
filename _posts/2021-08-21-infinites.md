@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Not all infinities are same
+title: Not all Infinities are same
 subtitle: The genius of George Cantor
 date: 2021-08-21
 categories: [math]
