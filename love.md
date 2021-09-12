@@ -101,3 +101,6 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
 - [http://wisdomofchopra.com/](http://wisdomofchopra.com/)
   - An innovative site to fight pseudo science and baloney!
 
+## Comics
+- [Abstuse Goose -The Pantheon](https://imgur.com/ee3QnK9): *I may not be in the same league, but that don't mean I ain't awesome*
+- [Peanuts - A Ducky and a Horse](https://www.gocomics.com/peanuts/1960/08/14): Down-to-earth ideas may sound embarassing, but never hesitate to put them out!  
