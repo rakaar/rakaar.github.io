@@ -12,6 +12,8 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
 
+- [Signals and Systems Basics](https://www.evernote.com/shard/s367/sh/0cd6815a-9478-67c3-0e4a-d4ed5172f63b/42997bebe040bc235b42159e68012661)
+
 - [Nice lines](https://www.evernote.com/shard/s367/sh/c01df478-9b90-ec39-c626-5fb618c807f1/f8b9aa4e98a81ea68950ced377f5ee9a)
 
 - [Godel's Proof - Hofstadter's version](https://www.evernote.com/shard/s367/sh/c9599ea5-821e-46ef-6e40-a92a190e5401/d862258867b9f6c3150161321b806861)
