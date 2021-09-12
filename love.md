@@ -23,6 +23,8 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
   - *Teach him to have faith in his own ideas, even if every one tell him they are wrong.*
   - *Teach him that for every enemy, there is a friend. He will have to know that all men are not just, that all men are not true. But teach him also that for every scoundrel there is a hero, that for every crooked politician, there is a dedicated leader.*
 
+- [Einstein's Father's Letter to Wilhelm Ostwald](https://imgur.com/Y7q8nzT): A father's love for his son
+
 ## Talks
 
 - [Guido's talk about his life and Python](https://www.youtube.com/watch?v=YgtL4S7Hrwo): An inspiring story, the ending was heart touching!
