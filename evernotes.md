@@ -12,6 +12,8 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
 
+- [Interesting RSS Feeds](https://www.evernote.com/shard/s367/sh/59acefc0-25c5-0b12-acd7-4232f72170e7/2cfd84efe9fba2509b4c18b6a07bc0a4)
+
 - [Signals and Systems Basics](https://www.evernote.com/shard/s367/sh/0cd6815a-9478-67c3-0e4a-d4ed5172f63b/42997bebe040bc235b42159e68012661)
 
 - [Nice lines](https://www.evernote.com/shard/s367/sh/c01df478-9b90-ec39-c626-5fb618c807f1/f8b9aa4e98a81ea68950ced377f5ee9a)
