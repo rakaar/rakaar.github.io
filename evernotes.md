@@ -20,8 +20,6 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 - [Godel's Proof - Hofstadter's version](https://www.evernote.com/shard/s367/sh/c9599ea5-821e-46ef-6e40-a92a190e5401/d862258867b9f6c3150161321b806861)
 
-- [Is studying at Neuron Level a Bad Idea?](https://www.evernote.com/shard/s367/sh/b0fd1363-d57e-3ec6-4521-8b70376bcb52/ec4135d9962d006d99e51ff69bb3606a)
-
 - [Soul Shards - Not mere spots on a 2D plane](https://www.evernote.com/shard/s367/sh/028dd758-871b-9f7f-6597-5bd512790882/c11c37ad7a5be3884e0b16f2c282c5eb)
 
 - [List of Resources to motivate you to write](https://www.evernote.com/shard/s367/sh/989bcb5b-fd8f-a78c-0d7c-da3ae2b0b712/fa52fa2cb9e438e4c17b0cf59f395a52)
