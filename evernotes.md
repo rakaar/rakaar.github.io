@@ -10,7 +10,7 @@ While exploring, many times I take some notes and put useful links in evernote. 
 >
 > -Aaron Swartz (An excerpt from the blog - [The Fruits of Mass Collaboration](http://www.aaronsw.com/weblog/masscollab))
 
-(In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
+(In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
 - [Hemmingway on Writing](https://www.evernote.com/shard/s367/sh/303e6344-860e-d5dc-86bc-0d8321bd4297/4a01cea205ec8ddc2fcb7947b251a9d7)
 
