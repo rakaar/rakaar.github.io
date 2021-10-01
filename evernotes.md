@@ -12,6 +12,10 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources public that others might find useful)
 
+- [Hemmingway on Writing](https://www.evernote.com/shard/s367/sh/303e6344-860e-d5dc-86bc-0d8321bd4297/4a01cea205ec8ddc2fcb7947b251a9d7)
+
+- [Questions for everyone in a LeanCoffee Session](https://www.evernote.com/shard/s367/sh/811b7917-23e6-c5c9-c26f-2f6686c628ff/3104f8b7508c8deffc059fe7cc64f699)
+
 - [Revelations, Realisations, Retrospections](https://www.evernote.com/shard/s367/sh/2823804a-dbe3-13d0-ba1f-7ebcb9ecf884/a5f786ddab980395000b71454602c1c6)
 
 - [Interesting RSS Feeds](https://www.evernote.com/shard/s367/sh/59acefc0-25c5-0b12-acd7-4232f72170e7/2cfd84efe9fba2509b4c18b6a07bc0a4)
