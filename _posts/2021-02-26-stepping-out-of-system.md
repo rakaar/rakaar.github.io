@@ -35,10 +35,6 @@ Pg.37 GEB
 
 
 
-- DH asks u to solve MU puzzle
-- Plot twist, later u realize u are unable to get it.
-- A machine when given rules of product would run endlessly. But we humans have the ability to step outside of system and think about the rules than just follow the rules blindly.
-- AI implications machine being able to observe its own actions and modify as per the result.
 
 ## Philosophical Implications
 
