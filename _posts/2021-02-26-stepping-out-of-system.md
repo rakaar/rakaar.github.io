@@ -61,7 +61,7 @@ It means one as an individual not just has to follow rules given to him/her(in a
 
 ## Footnotes
 
-- While many condemn Karl Marx due to what it has caused in USSR and China. A proper look into the history will reveal that Karl Marx was largely misinterpreted by the cruel leaders. A good explanation regarding it can be found in watch Episode 1 of [Genius of the Modern World | Netflix](https://www.netflix.com/in/title/80186252). You can also read the 6th point in the article - [BBC Arts - BBC Arts - Forward thinkers: How Marx, Nietzsche and Freud shaped the lives of millions](https://www.bbc.co.uk/programmes/articles/4CVpPWQkwbDzt4w2RjNHf2S/forward-thinkers-how-marx-nietzsche-and-freud-shaped-the-lives-of-millions)
+- While many condemn Karl Marx due to what it has caused in USSR and China. A proper look into the history will reveal that Karl Marx was largely misinterpreted by the cruel leaders. A good explanation regarding it can be found in watch Episode 1 of [Genius of the Modern World - Netflix](https://www.netflix.com/in/title/80186252). You can also read the 6th point in the article - [BBC Arts - BBC Arts - Forward thinkers: How Marx, Nietzsche and Freud shaped the lives of millions](https://www.bbc.co.uk/programmes/articles/4CVpPWQkwbDzt4w2RjNHf2S/forward-thinkers-how-marx-nietzsche-and-freud-shaped-the-lives-of-millions)
 
 - Image of the puzzle taken from [MU puzzle - Wikipedia](https://en.wikipedia.org/wiki/MU_puzzle)
 - Image of tree taken from Page number 40 of GEB
