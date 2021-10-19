@@ -42,11 +42,11 @@ He compares this idea to application of *Statistical Mechanics* in *Thermodynami
 
 *The Conventional levels of study*
 
-![](https://imgur.com/ToTO96z.png)
+![](https://imgur.com/Tm2YpzQ.png)
 
 *Hofstadter's levels*
 
-![](https://i.imgur.com/y0zQ2CL.png)			
+![](https://imgur.com/OJNPAnc.png)			
 
 Hofstadter compares studying of human mind at lowest physical level to understanding literature by studying at typographical level. We need to come to a higher level to understand thoughts.
 
@@ -140,7 +140,7 @@ Other creatures are not capable of this quality. Consider a mosquito. Due to its
 
 *The cone of consciousness*
 
-![](https://imgur.com/RCKd8xd.png)
+![](https://imgur.com/VNrIZW7.png)
 
 Conscience and Consciousness are the qualities that makes humans unique. Gandhi was titled *Mahatma*, which in hindi means large sized soul- a soul that is capable of housing other souls. *Partial internalisation of other creature's interiority is what marks off creatures, who have large souls from creatures that have small souls.* Sense of I is brought into reality with sense of other selves.
 
