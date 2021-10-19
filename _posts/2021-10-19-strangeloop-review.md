@@ -64,7 +64,7 @@ So, as we grow, we start developing concepts for many things around us. And thes
 
 A too much hand-wavy explanation, but an analogy from meta-mathematics will  convince you more.
 
-## Gödel's proof and New level of Meaning
+## Gödel's proof and new meaning out of a new mapping
 
 > The mundane of analogies can reveal deepest roots of human cognition
 
