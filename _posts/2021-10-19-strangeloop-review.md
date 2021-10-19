@@ -4,6 +4,7 @@ title: Why you should read I am A Strange Loop by Douglas Hofstadter
 subtitle: A review cum recommendation
 date: 2021-10-19
 categories: [books]
+usemathjax: true
 ---
 
 
