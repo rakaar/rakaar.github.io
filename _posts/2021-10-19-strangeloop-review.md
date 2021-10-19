@@ -143,7 +143,7 @@ Other creatures are not capable of this quality. Consider a mosquito. Due to its
 
 Conscience and Consciousness are the qualities that makes humans unique. Gandhi was titled *Mahatma*, which in hindi means large sized soul- a soul that is capable of housing other souls. *Partial internalisation of other creature's interiority is what marks off creatures, who have large souls from creatures that have small souls.* Sense of I is brought into reality with sense of other selves.
 
-## We all are Strange Loops
+## You are a Strange Loop
 
 The question of consciousness, the question of I, all boil down to *who shoves whom around inside* our *teetering bulbs of dread and dream*. The fact, that we will never be able to perceive self at that level is a gift, for we live in abstract concepts of our own creation.
 
