@@ -595,6 +595,6 @@ If you are a supreme court justice, most of your work would be influenced by pol
 
 Though it seems that these are dangerous games that require a lot of time, effort and courage to do such things, there is no choice if you genuinely care about leaving a legacy.
 
-(This blog is reminiscent of the idea of "Jumping out of the system" from GEB. [A blog](https://rakaar.github.io/2021-02-26-stepping-out-of-system/) explaining the idea)
+(This blog is reminiscent of the idea of "Jumping out of the system" from GEB. [A blog](https://rakaar.github.io/posts/2021-02-26-stepping-out-of-system/) explaining the idea)
 
 
