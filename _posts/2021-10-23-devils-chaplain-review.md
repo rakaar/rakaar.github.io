@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What book a Devil's Chaplain would write on cruelty of nature
-subtitle: A book recommendation - Devil's Chaplain by Richard Dawkins
+subtitle: 
 date: 2021-10-23
 categories: [books]
 ---
