@@ -50,7 +50,7 @@ The book *Devil's Chaplain* is a collection of essays by Dawkins on Science, evo
 - **Gene's aren't us**: A discussion that our character is not linked with one specific Gene. Its statistical!
 - **Son of Moore's Law**: A discussion on Genome project - collecting a database of genes and the decreasing costs of collection.
 
-**Essays on Memes **: A Meme is a self-replicating element of culture passed by imitation. Dawkins discuss the growth of culture in terms of memes. He also discusses about how children are vulnerable to wrong ideas. 
+**Essays on Memes**: A Meme is a self-replicating element of culture passed by imitation. Dawkins discuss the growth of culture in terms of memes. He also discusses about how children are vulnerable to wrong ideas. 
 
 - **Chinese Junk and Chinese Whispers**
 - **Viruses of the Mind**
