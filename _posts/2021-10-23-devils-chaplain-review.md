@@ -6,8 +6,7 @@ date: 2021-10-23
 categories: [books]
 ---
 
-
-## Review of the essay - Devil's Chaplain by Dawkins
+## Devil's Chaplain Essay by Dawkins - Summary
 
 When Darwin realised the cruel process of which natural selection that lead to evolution of life, he wrote
 
@@ -35,26 +34,26 @@ In Dawkins words - *We, alone on earth, can rebel against the tyranny of the sel
 
 ## My favourite essays the book
 
-The book contains interesting essays on Science, evolution, religion and pseudoscience. Here are list of essays that you might like
+The book *Devil's Chaplain* is a collection of essays by Dawkins on Science, evolution, religion and pseudoscience. Here are list of essays that I loved.
 
 **Essays on Pseudoscience**: It is easy to impress and convince audience with attaching "Quantum" prefix and proving any absurdity as true - Quantum Healing, Quantum theology, Quantum psychology. Essays containing Dawkins take on Pseudoscience is full of wit, and at places you also find great humour. Here are the essays that might like
 
-- Crystalline Truth and Crystal Balls
-- The Great Convergence
-- Dolly and the Cloth Heads
+- **Crystalline Truth and Crystal Balls**
+- **The Great Convergence**
+- **Dolly and the Cloth Heads**
 
 **Essays on Genetics and Evolution**: There are some interesting ideas related to genetics and evolution in the following essays.
 
-- Gaps in the Mind:  Addressing an interesting argument against evolution. And how humans are prejudiced to think in discrete terms. 
-- Darwin Triumphant: The universality of Darwin's theory.
-- The Information Challenge: About the information contained in Genes.
-- Gene's aren't us: A discussion that our character is not linked with one specific Gene. Its statistical!
-- Son of Moore's Law: A discussion on Genome project - collecting a database of genes and the decreasing costs of collection.
+- **Gaps in the Mind**:  Addressing an interesting argument against evolution. And how humans are prejudiced to think in discrete terms. 
+- **Darwin Triumphant**: The universality of Darwin's theory.
+- **The Information Challenge**: About the information contained in Genes.
+- **Gene's aren't us**: A discussion that our character is not linked with one specific Gene. Its statistical!
+- **Son of Moore's Law**: A discussion on Genome project - collecting a database of genes and the decreasing costs of collection.
 
 **Essays on Memes **: A Meme is a self-replicating element of culture passed by imitation. Dawkins discuss the growth of culture in terms of memes. He also discusses about how children are vulnerable to wrong ideas. 
 
-- Chinese Junk and Chinese Whispers
-- Viruses of the Mind
+- **Chinese Junk and Chinese Whispers**
+- **Viruses of the Mind**
 
 Last but not the least, you must read the open letter written by Dawkins to his daughter on her 18th Birthday. The letter is titled - *Good and Bad Reasons for Believing*. The letter is an advice to a child by a Scientist and a Father on what should one choose to believe. 
 
