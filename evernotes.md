@@ -12,6 +12,8 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
+- [Green Eyed Puzzle](https://www.evernote.com/shard/s367/sh/52d16188-782e-98d1-c00d-564efc63b5f1/8f88c5f0fcd874f3d195e21ce4a258b1)
+
 - [Hemmingway on Writing](https://www.evernote.com/shard/s367/sh/303e6344-860e-d5dc-86bc-0d8321bd4297/4a01cea205ec8ddc2fcb7947b251a9d7)
 
 - [Questions for everyone in a LeanCoffee Session](https://www.evernote.com/shard/s367/sh/811b7917-23e6-c5c9-c26f-2f6686c628ff/3104f8b7508c8deffc059fe7cc64f699)
