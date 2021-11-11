@@ -11,6 +11,7 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
 - [The days are long but the decades are short](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short): A blog by Sam Altman containing some amazing points. My favourite one is *Regret is the worst, and most people regret far more things they didn’t do than things they did do*
 - [Mathematician Rota's 12 Life Lessons:](https://fs.blog/2021/02/gian-carlo-rota/) The importance of a lecture being not longer than a microcentury, Hilbert's story that tells you not to worry about small mistakes.
 - [Adding is favoured over subtracting in problem solving](https://www.nature.com/articles/d41586-021-00592-0): People always think that only adding elements will solve the current problem. Its implications - we think we always need to do more. Cutting down things helps most of the time. More on [Cal Newport's blog](https://www.calnewport.com/blog/2021/05/06/the-neuroscience-of-busyness/). Similar blog on [Farnam Street.](https://fs.blog/2021/05/slack/)
+- [This is Water by David Foster Wallace](https://fs.blog/david-foster-wallace-this-is-water/): DFW talks about choosing what to think. This talk will make you realise about your default settings of the mind. 
 
 ## Letters
 
