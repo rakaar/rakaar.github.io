@@ -12,6 +12,8 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
+- [A Listener's Rants - Good things about Good Lectures, Bad things about Bad Lectures](https://www.evernote.com/shard/s367/sh/288471f9-3757-752f-f42c-0709c5f327f5/25a341118f3bc3de118dc6d9c708a6b6)
+
 - [Green Eyed Puzzle](https://www.evernote.com/shard/s367/sh/52d16188-782e-98d1-c00d-564efc63b5f1/8f88c5f0fcd874f3d195e21ce4a258b1)
 
 - [Hemmingway on Writing](https://www.evernote.com/shard/s367/sh/303e6344-860e-d5dc-86bc-0d8321bd4297/4a01cea205ec8ddc2fcb7947b251a9d7)
