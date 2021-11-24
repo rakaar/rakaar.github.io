@@ -57,6 +57,10 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
   - No baloney - Feynman hated baloney whether it be physics or philosophy. Watch this [talk](https://www.youtube.com/watch?v=6Waurx8e-1o) about Feynman by Leonard Susskind.
   - I feel Feynman was one of the rare humans who understood meaning of love and life. Feynman married his lover, despite knowing that she would die from Tuberculosis soon. Read [this cathartic letter](https://www.openculture.com/2013/08/richard-feynmans-letter-to-departed-wife.html) by Feynman, written in memory of Arlene. [Feynman's letter](https://fs.blog/2014/08/richard-feynman-what-problems-to-solve/) on not to remain nameless.
 
+- Rainer Weiss: Watch these wholesome interviews - [1](https://youtu.be/qUAB3Zn4bK0),[2](https://youtu.be/rI339PuTaOQ). Learn about the man from the book - Black hole blues by Janna Levin. _Be ready to work on something menial_, _Every day is an interesting day_.
+
+- Douglas Hofstadter: Anyone who has read *Godel,Escher,Bach* and *I am a Strange Loop* can't not fall in love with Doug and his ideas.
+
 ## Philosophical Laws/Razors/Ideas
 
 - **Hofstadter's Law**: It always takes longer than you expect, even when you take into account Hofstadter's Law
