@@ -26,7 +26,7 @@ When you love a book, you want it to *sting and bite* other people the way it di
 
 - Another noble thing that can be done is to donate the book to a library. But the book might have to wait for a long time in the shelf to be picked up.  A good side effect of giving the book in person is you introduce new books to people. There is also a chance of developing a readers' circle in your vicinity
 
-- Of course, you don't have to give away all the books that you have read. There is always at least one book that you might have planned to re-read  occasionally to grasp it, to get the complete juice out of the book. (For me that book is *Godel, Escher, Bach*)  
+- Of course, you don't have to give away all the books that you have read. There is always at least one book that you might have planned to re-read  occasionally to grasp it completely, to extract all the juice out of it. (For me that book is *Godel, Escher, Bach*)  
 
 - The phrase *sting and bite* was taken from Kafka's quote
 
