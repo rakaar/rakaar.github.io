@@ -1,12 +1,12 @@
 ---
 layout: post
-title: What to do with Paperback books once you have read them?
+title: What to do with physical books once you have read them?
 subtitle: Just give it someone who can enjoy it! 
 date: 2021-12-31
 categories: [books]
 ---
 
-Many like me prefer reading from physical books. There is a great pleasure in scribbling your thoughts on the paper, underlining sentences, talking to the author in the margins. But after you have read the book what do you do with it?Like many, I wanted to keep a nice book collection in my room. Showing it to my guests the wonderful books that I have read and talk about them. The book collection adds a intellectual or artistic touch to your room.
+Many like me like to read from physical books rather than audiobooks or e-books. There is a great pleasure in scribbling your thoughts on the paper, underlining sentences, talking to the author in the margins. But after you have read the book what do you do with it? Like many, I wanted to keep a nice book collection in my room. Showing it to my guests the wonderful books that I have read and talk about them. The book collection adds a intellectual or artistic touch to your room.
 
 One day I came across a post in `r/books` titled 
 
