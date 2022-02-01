@@ -48,7 +48,7 @@ So, next time you find a person beautiful, complement them they *have a evolutio
 
 ## Motive
 
-There is a common tendency of people(including me) to treat beautiful people or things as special, as if they were made of celestial ether.  An appreciation, that is sincere and in large quantity, comes out subconsciously for the only one reason - the face. The point of this essay was to convince that there is nothing special about beautiful things and it is all play of genes. 
+There is a common tendency of people(including me) to treat beautiful people or things as special, as if they were made of celestial ether.  An appreciation, that is sincere and immense, comes out subconsciously for the only one reason - the face. The point of this essay was to convince that there is nothing special about beautiful things and it is all play of genes. 
 
 Also, when a question like 'why are beautiful things beautiful' is attempted to resolve from evolutionary perspective, it helps us realise that most of the time we do things the way we were hard wired to. To conclude, *there is no inherent beauty.* If you find something beautiful, ask the genes- why!
 
