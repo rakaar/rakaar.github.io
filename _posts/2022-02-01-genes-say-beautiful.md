@@ -26,7 +26,7 @@ Almost every time, we recognise a beautiful face with a single look. How the hec
 
 ## A Body programmed by Gene
 
-When a ball is thrown at you, you don't solve differential equations to find the trajectory of the ball or locate where you hand should be placed to catch the ball. Yet, you catch it with little or no difficulty without involving any maths. But if you had to build a machine to catch the ball, it would have to do the maths to catch the ball. So, this points out that human body is programmed to make such calculations without awareness. I am not arguing that you calculate velocity vectors of the ball every instant subconsciously! But evolution has *programmed* us to able to locate where you have to place your arm to hold the ball coming towards you. Something akin to solving differential equations is programmed by genes.
+When a ball is thrown at you, you don't solve differential equations to find the trajectory of the ball or locate where your hand should be placed to catch the ball. Yet, you catch it with little or no difficulty without involving any maths. But if you had to build a machine to catch the ball, it would have to do the maths to catch the ball. So, this points out that human body is programmed to make such calculations without awareness. I am not arguing that you calculate velocity vectors of the ball every instant subconsciously! But evolution has *programmed* us to able to locate where you have to place your arm to hold the ball coming towards you. Something akin to solving differential equations is programmed by genes.
 
 Using a similar argument, we can speculate that we have been programmed to find such features in face and get attracted to them. But why only these features?
 
