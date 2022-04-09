@@ -12,7 +12,7 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
-- [Neuroscience Paper summaries](https://docs.google.com/document/d/1n6uE0ImrKX9LYG-5qAq_F1N6B_q_RqSPzMnPBAM4f9E/edit?usp=sharing)
+- [Neuroscience TIL](https://docs.google.com/document/d/1n6uE0ImrKX9LYG-5qAq_F1N6B_q_RqSPzMnPBAM4f9E/edit?usp=sharing)
 
 - [Orwell](https://www.evernote.com/shard/s367/sh/f3a0f109-0b79-b2a1-dbf1-c9ec4c5ef4cf/26c99dbe0d18abc2efcd6ec6381271fd)
 
