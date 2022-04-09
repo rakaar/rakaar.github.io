@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Evernotes
-permalink: /evernote/
+title: Notes
+permalink: /notes/
 ---
 
 While exploring, many times I take some notes and put useful links in evernote. Here are the links to those notes
