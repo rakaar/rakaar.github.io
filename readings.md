@@ -1,12 +1,9 @@
-
 ---
 layout: page
 title: Readings
 permalink: /readings/
 ---
 
-
-# Readings - Books & Essays
 
 ## Amerika by Franz Kafka
 
