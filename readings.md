@@ -4,6 +4,13 @@ title: Readings
 permalink: /readings/
 ---
 
+## Life Lessons From Freud by Brett Kahr
+
+Picked this book because "Freud" was in the title.  Essays where some of the interesting Freud's ideas are discussed - relation of filial piety and complacency, Freudian Slips, Freud's respect for patients' privacy, affect of past on the unconscious mind, Freud's theories on jokes and narcissism.  A good book to get introduced to some of Freud's ideas.
+
+## Slaughterhouse 5: The Children's Crusade by Kurt Vonnegut
+
+Things that I loved about this book  - interesting non-linear story narration, neat writing style with lack of pomp and most importantly philosophical lessons about freewill by Tralfamadorians(an alien species).  A classic book that every literature enthusiast ought to read. 
 
 ## Amerika by Franz Kafka
 
