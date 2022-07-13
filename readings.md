@@ -4,6 +4,24 @@ title: Readings
 permalink: /readings/
 ---
 
+
+
+##  The Selfish Gene by Richard Dawkins
+
+The book's main aim is to explain evolution of life from Gene's perspective.  Personally, the most impactful parts of the book were where Dawkins explains how several aspects of animal behaviour like preference for relatives over others, males' efforts to attract females arise from  genes acting in their selfish interest. On reflection, this makes us feel how strongly evolutionary wiring influences our daily actions and decisions. 
+
+Yet, the book also points out that only we humans are capable of acting against our evolutionary hard wiring. Evolution by giving rise to consciousness in humans made a machine(human), which could understand how it was built. Humans using a contraceptive is an example of an action against the gene's dictatorship. 
+
+> We, alone on earth, can rebel against the tyranny of the selfish replicators
+
+The chapter on Memes(Mimeme, unit of cultural transmission) explains evolution of life from a cultural perspective. A thought-provoking explanation for questions like why traditions exist?,  how are they passed on from generation to generation?, why some traditions last so long? Somehow the book has left me with the impression that with proper usage of Gene's and/or Meme's point of view, one could explain the reason behind every single human action.
+
+At several places in the book, well-written lines force the reader to pause and ponder its implications in one's own life. When you pick up the book, give the longest pause when you see the below lines.  
+
+> .... When we die there  are two things we can leave behind us: genes and memes. We were built as gene machines, created to  pass on our genes. But that aspect of us will be forgotten in three generations. Your child, even your  grandchild, may bear a resemblance to you, perhaps in facial features, in a talent for music, in the colour of her hair. But as each generation passes, the contribution of your genes is halved. It does not take long  to reach negligible proportions. Our genes may be immortal but the collection of genes that is any one of  us is bound to crumble away. Elizabeth II is a direct descendant of William the Conqueror. Yet it is quite  probable that she bears not a single one of the old king's genes. 
+>
+> **We should not seek immortality in  reproduction**.  But if you contribute to the world's culture, if you have a good idea, compose a tune, invent a sparking  plug, write a poem, it may live on, intact, long after your genes have dissolved in the common pool.  **Socrates may or may not have a gene or two alive in the world today, as G. C. Williams has remarked,  but who cares? The meme-complexes of Socrates, Leonardo, Copernicus and Marconi are still going  strong**.
+
 ## Life Lessons From Freud by Brett Kahr
 
 Picked this book because "Freud" was in the title.  Essays where some of the interesting Freud's ideas are discussed - relation of filial piety and complacency, Freudian Slips, Freud's respect for patients' privacy, affect of past on the unconscious mind, Freud's theories on jokes and narcissism.  A good book to get introduced to some of Freud's ideas.
