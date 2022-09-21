@@ -12,9 +12,7 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
-- [Trip Songs](https://www.evernote.com/shard/s367/sh/d77405e9-f142-5274-b361-7498e8f9453c/2123a8d04ff66912e00f8f421621c666)
-
-- [Neuroscience TIL](https://docs.google.com/document/d/1n6uE0ImrKX9LYG-5qAq_F1N6B_q_RqSPzMnPBAM4f9E/edit?usp=sharing)
+- [Systems Neuroscience Interesting Papers](https://groovy-locust-6a6.notion.site/NS-Papers-cb0e2ed2eb4049538ad5d48a19ebbdbf)
 
 - [Orwell](https://www.evernote.com/shard/s367/sh/f3a0f109-0b79-b2a1-dbf1-c9ec4c5ef4cf/26c99dbe0d18abc2efcd6ec6381271fd)
 

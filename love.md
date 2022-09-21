@@ -94,7 +94,7 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
   *- Carl Sagan*
   
  - [Little Tyke with her friends - All beings are capable of having conscience](https://www.all-creatures.org/stories/a-tyke-veg-lion.html)
- 
+
  ![little tyke with her friends](https://imgur.com/44uboYU.png)
 
 ## Manifesto
@@ -115,3 +115,9 @@ Carl Sagan famously said *When you're in love, you want to tell the world*. Belo
 ## Comics
 - [Abstuse Goose -The Pantheon](https://imgur.com/ee3QnK9): *I may not be in the same league, but that don't mean I ain't awesome*
 - [Peanuts - A Ducky and a Horse](https://www.gocomics.com/peanuts/1960/08/14): Down-to-earth ideas may sound embarassing, but never hesitate to put them out!  
+
+## Poems
+
+- [Two English Poems by Jorge Luis Borges](https://www-ccs.cs.umass.edu/cris/texts/two-english-poems.html)
+- [The Road not taken by Robert Frost](https://www.poetryfoundation.org/poems/44272/the-road-not-taken)
+

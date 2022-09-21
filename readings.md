@@ -6,6 +6,26 @@ permalink: /readings/
 
 
 
+## Black Swan by N. N. Taleb
+
+A wonderful reading experience! The book deals with randomness and human perception of it. One can find many good discussions on broad range of topics(yet related to central theme of the book) like human bias, career advice, philosophy, baloney, Gaussian curve. The most important effect of this book is that it tries to make the reader aware of one's own limitations(***anti-library,narrative fallacy,ludic fallacy,epistemic arrogance, Popper's disproving, effect of the unseen, GIF, Locke's madman, END and NED, mediocristan vs extremistan*** ) and teaches to accept the key role of uncertainty(***Black swans***) and if possible try to take advantage of it(***barbell strategy, Appelles the painter,stochastic tinkering, practitioner, empiricist***). 
+
+Many words marked in bold are the things that will hit you hard when you read the book.
+
+## The Autobiography of Benjamin Franklin
+
+An important take away for me from the book is with discipline and meticulous planning, how one can improve one's character(chapter - Plan for attaining Moral Perfection). I picked up this book when I came across Franklin's efforts to improve his elegance in writing, mentioned in the book Peak(one of the most important Psychology books in my opinion).  At places, some witty insights like these are enjoyable
+
+> A  man being sometimes more generous when he has but little money than when he has plenty, perhaps thro' fear of being  thought to have little.
+
+>  So convenient a thing it is to be a reasonable creature since it enables one to find or make a reason for everything one has a mind to do
+
+> a benevolent man should allow a few defaults in himself to keep his friends in countenance
+
+> Human felicity is produced not so much by great pieces of good fortune that seldom happened, as by little advantages that occur every day
+
+For someone super organized like Franklin, no doubt that having small things in order leaves a room for lot of time and cognitive space to do more important things. But I confess that at times, I skimmed over parts where too many details of anecdotes were mentioned.
+
 ##  The Selfish Gene by Richard Dawkins
 
 The book's main aim is to explain evolution of life from Gene's perspective.  Personally, the most impactful parts of the book were where Dawkins explains how several aspects of animal behaviour like preference for relatives over others, males' efforts to attract females arise from  genes acting in their selfish interest. On reflection, this makes us feel how strongly evolutionary wiring influences our daily actions and decisions. 
@@ -62,3 +82,5 @@ The true genius of Orwell lies in the fact that this book can be read by anyone 
 ## Why don't Students like School by Daniel T. Willingham
 
 An excellent book about cognition of learning. Every teacher should be given a physical copy of the book and asked to read it atleast twice. The book not only explains learning from psychological perspective but also provides practical advice in bringing psychological findings into practice.
+
+### For some of the readings before 2022, you can check this [blog](https://rakaar.github.io/posts/2021-02-27-2020-books/)
