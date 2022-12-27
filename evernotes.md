@@ -4,7 +4,7 @@ title: Notes
 permalink: /notes/
 ---
 
-While exploring, many times I take some notes and put useful links in evernote. Here are the links to those notes
+While exploring, many times I take some notes and put useful links in my notes. Here are the links to those notes
 
 > I often think that the world needs to be a lot more organized. Lots of people write reviews of television shows, but nobody seems to collect and organize them all. Good introductory guides to subjects are essential for learning, yet I only stumble upon them by chance. The cumulative knowledge of science is one of our most valuable cultural products, yet it can only be found scattered across thousands of short articles in hundreds of different journals.
 >
@@ -12,7 +12,7 @@ While exploring, many times I take some notes and put useful links in evernote. 
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
-- [Systems Neuroscience Interesting Papers](https://groovy-locust-6a6.notion.site/NS-Papers-cb0e2ed2eb4049538ad5d48a19ebbdbf)
+- [NS Papers](https://groovy-locust-6a6.notion.site/NS-Papers-cb0e2ed2eb4049538ad5d48a19ebbdbf)
 
 - [Orwell](https://www.evernote.com/shard/s367/sh/f3a0f109-0b79-b2a1-dbf1-c9ec4c5ef4cf/26c99dbe0d18abc2efcd6ec6381271fd)
 

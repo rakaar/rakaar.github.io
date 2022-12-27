@@ -4,7 +4,17 @@ title: Readings
 permalink: /readings/
 ---
 
+## The Elephant in the Brain by Simler and Hanson
 
+This book can be summarized with the quote - *A man always has two reasons for doing anything: a good reason and a real reason.* The book talks about the hidden motives behind our actions. Hidden motives as in not just unknown to other people, but also to you(your consciousness). Through evolution, our brains have learnt to deceive ourselves before deceiving others. This is perfect for survival because if you are unaware of it, then you won't express it and your real selfish motive will remain hidden. Any Freud fan would surely be attracted to such an idea that explores the unconscious side of the brain.
+
+This first part of this book does a great job in explaining how such a self-deception came into existence and why it is necessary for survival. The second part of the book explore implications of this idea in large scale institutions like Education, Politics, Religion, Medicine, Art. The book uncovers the hidden motives by showing the discrepancy between the apparent intention and action. These discussions are also backed by evolutionary arguments and experiments on animals. I was really impressed by this aspect of the book. 
+
+This is an interesting book explaining one of the less explored aspects of human nature. Reading this might help to highten your self-perception. 
+
+## The Trial by Franz Kafka
+
+Despite being unfinished, Kafka's novels have a great popularity. To understand the true legacy of Kafka, I picked up this book(this is my 3rd Kafka book. After Metamorphosis and Amerika). A sense of guilt still haunts me for not having understood Kafka's celebrated genius in all of his books. The book has a good start, but over time, I felt chapters ended abruptly and many scenes were unnecessary. May be it requires more patience, skill and literary intelligence to appreciate Kafka and his work.  
 
 ## Black Swan by N. N. Taleb
 
