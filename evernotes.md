@@ -12,6 +12,8 @@ While exploring, many times I take some notes and put useful links in my notes. 
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
 
+- [MATLAB notes](https://groovy-locust-6a6.notion.site/Matlab-tricks-dc635f9585974455982d93332138bb37)
+
 - [NS Papers](https://groovy-locust-6a6.notion.site/NS-Papers-cb0e2ed2eb4049538ad5d48a19ebbdbf)
 
 - [Orwell](https://www.evernote.com/shard/s367/sh/f3a0f109-0b79-b2a1-dbf1-c9ec4c5ef4cf/26c99dbe0d18abc2efcd6ec6381271fd)
