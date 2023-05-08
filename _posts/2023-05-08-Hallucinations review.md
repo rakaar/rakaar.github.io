@@ -1,4 +1,10 @@
-# Hallucinations review
+---
+layout: post
+title: I read Hallucinations by Oliver Sacks
+subtitle: Book review
+date: 2023-05-08
+categories: [books]
+---
 
 Hallucinations, as the name suggests, delves into various clinical case studies where people "see" things that don't exist projected onto reality. Oliver Sacks discusses different mental conditions and the types of hallucinations patients experience, such as those associated with Charles Bonnet syndrome, Parkinson's disease, and epilepsy. The book also includes discussions of auditory (hearing things that don't exist) and olfactory hallucinations (smelling things that don't exist).
 
@@ -14,7 +20,7 @@ Oliver is also an avid reader and frequently points out popular literature refer
 
 Whenever I hear a paranormal story from any of my friends, I wonder about the true rational explanation behind it. I strongly believe that nothing is supernatural and that everything adheres to the laws of physics. This book aims to strengthen such convictions in others as well. Throughout the book, we come across cases where patients experience seemingly paranormal events, such as encountering someone who looks exactly like themselves or hearing a voice just after waking up. In cultures that lack scientific or rational understanding, these experiences often give rise to tales of ghosts and spirits. Realizing that these phenomena have a physiological basis can enlighten many of us.
 
-## Favorite part
+## Favourite part
 
 In conclusion, I would like to highlight my favorite part of the book - the chapter titled "Altered States." This chapter was particularly enjoyable for me, as the stories were incredibly *trippy*. The last story, however, was truly moving. During a period in Oliver's life, he had a routine of spending weekends under the influence of *amphetamines*. These dangerous drugs can lead to high blood pressure, and overdoses, which are all too common, can be fatal. After each weekend, Oliver would feel drained and guilty.
 
@@ -26,8 +32,5 @@ Once, he came across a substantial volume of around 500 pages on migraines, writ
 
 Certain drugs can amplify emotions, and what I find remarkable about this story is that Oliver found a greater sense of purpose in life while on amphetamines, which in turn led him to leave amphetamines behind. This contrasts with the common perception that the more substances are an escape from reality. While this may be true in many cases, this story demonstrates that an amplified emotional state, when combined with the right setting - such as reading a book on a subject you deeply care about - can reveal a hidden potential within.
 
-Dysfunction provides a window into functioning of brain. As I read the book, I was in awe with what the variety of experiences that a human mind can provide.
+I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual's experiences and behaviours.
 
-
-
-.
