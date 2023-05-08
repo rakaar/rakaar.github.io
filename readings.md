@@ -4,6 +4,10 @@ title: Readings
 permalink: /readings/
 ---
 
+## Hallucinations by Oliver Sacks
+
+I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. Full blog post [here](https://rakaar.github.io/posts/2023-05-08-Hallucinations-review/)
+
 ## The Elephant in the Brain by Simler and Hanson
 
 This book can be summarized with the quote - *A man always has two reasons for doing anything: a good reason and a real reason.* The book talks about the hidden motives behind our actions. Hidden motives as in not just unknown to other people, but also to you(your consciousness). Through evolution, our brains have learnt to deceive ourselves before deceiving others. This is perfect for survival because if you are unaware of it, then you won't express it and your real selfish motive will remain hidden. Any Freud fan would surely be attracted to such an idea that explores the unconscious side of the brain.
