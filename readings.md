@@ -4,6 +4,10 @@ title: Readings
 permalink: /readings/
 ---
 
+## Gene Machine by Venki Ramakrishnan
+
+The book chronicles the journey of Venki Ramakrishnan from a graduate student in theoretical physics to a Nobel Prize-winning Ribosome structural biologist. This book is an essential reading for anyone involved in research for two  reasons. Firstly, it offers valuable insights into the inner workings of effective scientific research, including the work culture at MRC London Institute (home to 12 Nobel laureates, including Watson and Crick), the significance of an enthusiastic work environment, and how top researchers select their problems to work on, as well as the role of luck. Secondly, as a personal account of Ramakrishnan's journey, the book exposes the insecurities that even the best researchers face, making it relatable and reassuring for others in the field. Although the book contains substantial structural biology content, readers from diverse backgrounds will still be able to appreciate and enjoy the narrative.
+
 ## Hallucinations by Oliver Sacks
 
 I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. Full blog post [here](https://rakaar.github.io/posts/2023-05-08-Hallucinations-review/)
