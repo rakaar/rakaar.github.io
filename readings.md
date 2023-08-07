@@ -4,11 +4,19 @@ title: Readings
 permalink: /readings/
 ---
 
+## Genius Makers by Cade Metz
+
+Ideas that change the course of history mostly face an early resistance from the community. It requires huge intellectual courage to work on the ideas at a time, when majority in the field find it silly and unpromising. James Gleick captures one such narrative in his book "Chaos", chronicling the  evolution of Non-Linear dynamics. Genius Makers by Cade Metz is another such book. A book about the rise of AI, more specifically deep learning. Starting from Rosenblatt's perceptron to Google's BERT Language model, the book covers historic moments in the field of AI and stories of people behind it.
+
+Note that books like these are not just about technologies and ideas, but also the people behind them. It is interesting to see how the big names in the field had started their journey, that was so different what they would achieve.As we are being bombarded with AI achievements, I think it is the right time to read this book before a sequel comes out. This book doesn't have anything about GPT! 
+
 ## A thousand brains by Jeff Hawkins
 
-Jeff Hawkins is an entrepreneur turned self-taught neuroscientist built a company named "Numenta" to understand the workings of neocortex, the component of our brain responsible for higher cognitive tasks. He wrote 'A thousand brains' book  to explain his work and ideas on the neocortex to the general public. While the first half of this book has many bold ideas, I was skeptical of them as they lacked experimental evidence. Although Jeff and his colleagues have produced Journal papers to support their work, but those papers provide a computational model built on basis of their ideas. I am not against computational model work, but with a play of parameters and many assumptions, sometimes the model explain what you want to, but not the reality. This reminds me of the statement- *All models are wrong, but some are useful*. 
+Jeff Hawkins is an entrepreneur-turned-self-taught neuroscientist, who built a company named "Numenta" to understand the workings of neocortex, the component of our brain responsible for higher cognitive tasks. He wrote 'A thousand brains' book to explain his work and ideas about the neocortex to the general public. 
 
-I believe that a genuine testament to a theory's validity lies either in experimental evidence or its tangible application. A good example of the latter is ChatGPT. You don't need any benchmark tests to show that the billion parameter model is good. People buy it and use it for their work, it is useful. In Ilya Sutseveker's works, *usefulness is the best metric*.
+While the first half of this book has many bold ideas, I found myself sceptical of them as they lacked experimental evidence. Although Jeff and his colleagues have produced journal papers to support their work, those papers provide a computational model built on basis of their ideas. I am not against computational model work, but with a play of parameters and many assumptions leads to a model that aligns with researcher's expectations but not objective reality. This reminds me of the quote - *All models are wrong, but some are useful * from George Box. 
+
+I believe that a genuine testament to a theory's validity lies either in experimental evidence or its tangible application. A good example of the latter is ChatGPT. You don't need any benchmark tests to show that the billion parameter model is good. People buy it and use it in their day-to-day life because it adds value. It is useful!. In Ilya Sutskever's works, *usefulness is the best metric*.
 
 The latter half of the book contains interesting futuristic discussions about preserving human knowledge and extraterrestrial communication. Hawkins suggests some new ideas humans might convey a message in space, that other forms of life can decipher. While I came for the brain theories, I liked this part of the book!
 
@@ -113,4 +121,4 @@ The true genius of Orwell lies in the fact that this book can be read by anyone 
 
 An excellent book about cognition of learning. Every teacher should be given a physical copy of the book and asked to read it atleast twice. The book not only explains learning from psychological perspective but also provides practical advice in bringing psychological findings into practice.
 
-### For some of the readings before 2022, you can check this [blog](https://rakaar.github.io/posts/2021-02-27-2020-books/)
+For some of the readings before 2022, you can check this [blog](https://rakaar.github.io/posts/2021-02-27-2020-books/)
