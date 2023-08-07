@@ -4,13 +4,25 @@ title: Readings
 permalink: /readings/
 ---
 
+## A thousand brains by Jeff Hawkins
+
+Jeff Hawkins is an entrepreneur turned self-taught neuroscientist built a company named "Numenta" to understand the workings of neocortex, the component of our brain responsible for higher cognitive tasks. He wrote 'A thousand brains' book  to explain his work and ideas on the neocortex to the general public. While the first half of this book has many bold ideas, I was skeptical of them as they lacked experimental evidence. Although Jeff and his colleagues have produced Journal papers to support their work, but those papers provide a computational model built on basis of their ideas. I am not against computational model work, but with a play of parameters and many assumptions, sometimes the model explain what you want to, but not the reality. This reminds me of the statement- *All models are wrong, but some are useful*. 
+
+I believe that a genuine testament to a theory's validity lies either in experimental evidence or its tangible application. A good example of the latter is ChatGPT. You don't need any benchmark tests to show that the billion parameter model is good. People buy it and use it for their work, it is useful. In Ilya Sutseveker's works, *usefulness is the best metric*.
+
+The latter half of the book contains interesting futuristic discussions about preserving human knowledge and extraterrestrial communication. Hawkins suggests some new ideas humans might convey a message in space, that other forms of life can decipher. While I came for the brain theories, I liked this part of the book!
+
+## Double by Fyodor Dostoevsky
+
+A short story written by Dostoevsky three years before his exile. While I have always been an admirer of Dostoevsky's work, I didn't enjoy this one. The events surround protagonist's double and story's conclusion were hard to reconcile. The writing style contrasts from his other popular works like Notes from Underground, where Dostoevsky masterfully dissects a man's thoughts. I felt 'The Double' lacked that. Maybe this one requires a re-reading to get a clearer perspective, but I feel like revisiting "Notes from underground" to experience the Dostoevsky I cherish.  
+
 ## Gene Machine by Venki Ramakrishnan
 
 The book chronicles the journey of Venki Ramakrishnan from a graduate student in theoretical physics to a Nobel Prize-winning Ribosome structural biologist. This book is an essential reading for anyone involved in research for two  reasons. Firstly, it offers valuable insights into the inner workings of effective scientific research, including the work culture at MRC London Institute (home to 12 Nobel laureates, including Watson and Crick), the significance of an enthusiastic work environment, and how top researchers select their problems to work on, as well as the role of luck. Secondly, as a personal account of Ramakrishnan's journey, the book exposes the insecurities that even the best researchers face, making it relatable and reassuring for others in the field. Although the book contains substantial structural biology content, readers from diverse backgrounds will still be able to appreciate and enjoy the narrative.
 
 ## Hallucinations by Oliver Sacks
 
-I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. Full blog post [here](https://rakaar.github.io/posts/2023-05-08-Hallucinations-review/)
+I have always been captivated by the diverse experiences that the human brain can generate, and this book offers a plethora of such instances. On a personal level, this book has reinforced my belief that ultimately the underlying physiology dictates an individual’s experiences and behaviours. Full blog post [here](https://rakaar.github.io/posts/2023-05-08-Hallucinations-review/)
 
 ## The Elephant in the Brain by Simler and Hanson
 
