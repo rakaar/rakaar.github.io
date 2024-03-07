@@ -4,6 +4,16 @@ title: Readings
 permalink: /readings/
 ---
 
+
+
+## The Hitchiker's guide to the Galaxy by Douglas Adams
+
+The reading experience would have been much more fun if I wasn't aware of the best parts of the book like planet's destruction, 42 and Heart of Gold. A short book worth reading. A couple of disappointments - a)at places, complex sci-fi words were used without much explanation b)I feel there are jokes in the book require a peculiar thought process to understand them. Such jokes are hard to appreciate without any hint given to the reader. For example, see the [digital watches joke](https://www.reddit.com/r/books/comments/63i028/douglas_adams_the_hitchhikers_guide_to_the_galaxy/).    
+
+## Anna Karenina by Leo Tolstoy
+
+An overrated classic. The book has a natural storyline depicting the inner conflicts of a woman(probably narcissistic?) who ends up in an affair. But there are several long pieces of text, that had zero contribution to the story and hamper the reading experience. 
+
 ## Genius Makers by Cade Metz
 
 Ideas that change the course of history mostly face an early resistance from the community. It requires huge intellectual courage to work on the ideas at a time, when majority in the field find it silly and unpromising. James Gleick captures one such narrative in his book "Chaos", chronicling the  evolution of Non-Linear dynamics. Genius Makers by Cade Metz is another such book. A book about the rise of AI, more specifically deep learning. Starting from Rosenblatt's perceptron to Google's BERT Language model, the book covers historic moments in the field of AI and stories of people behind it.
