@@ -6,6 +6,10 @@ permalink: /readings/
 
 
 
+## How to Change your Mind by Michael Pollan
+
+An excellent book about history and science of psychedelics. Very enjoyable writing style. Accounts of author's personal trips were the most fascinating part.
+
 ## The Hitchiker's guide to the Galaxy by Douglas Adams
 
 The reading experience would have been much more fun if I wasn't aware of the best parts of the book like planet's destruction, 42 and Heart of Gold. A short book worth reading. A couple of disappointments - a)at places, complex sci-fi words were used without much explanation b)I feel there are jokes in the book require a peculiar thought process to understand them. Such jokes are hard to appreciate without any hint given to the reader. For example, see the [digital watches joke](https://www.reddit.com/r/books/comments/63i028/douglas_adams_the_hitchhikers_guide_to_the_galaxy/).    

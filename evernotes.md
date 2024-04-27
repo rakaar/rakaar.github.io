@@ -11,6 +11,8 @@ While exploring, many times I take some notes and put useful links in my notes. 
 > -Aaron Swartz (An excerpt from the blog - [The Fruits of Mass Collaboration](http://www.aaronsw.com/weblog/masscollab))
 
 (In the above spirit, I recommend you also to share your notes and resources that others might find useful)
+- [Obsidian Notes](https://rakaar.github.io/obs-notes/)
+
 - [LLMs](https://groovy-locust-6a6.notion.site/Language-Models-79a3477948a6491bb61dda65a4d9eddb)
 
 - [MATLAB notes](https://groovy-locust-6a6.notion.site/Matlab-tricks-dc635f9585974455982d93332138bb37)

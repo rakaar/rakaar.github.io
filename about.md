@@ -4,5 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hey, I am an Undergraduate student at I.I.T Kharagpur, West Bengal. I spend most of most of time writing code or exploring about new things in the Tech. In my free time, I like to read books.
+[CV](https://drive.google.com/file/d/1U6sI7ve25MsyHspPub4KeYyfOLTbWL88/view?usp=sharing)
+
+Contact: `raghavendra.kaushik.iitkgp@gmail.com`
+
+
+
+
 
