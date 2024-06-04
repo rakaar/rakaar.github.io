@@ -6,9 +6,23 @@ permalink: /readings/
 
 
 
+## Dune by Frank Herbert
+
+Picked this book after watching the movies(Part-1,2) and this [interview](https://www.youtube.com/watch?v=26GPaMoeiu4), where Herbert tells that his book tries to convey a message about the dangers of charismatic leaders. As I read the book, I felt great appreciation for Denis V. for cutting down parts and making necessary changes to adapt the book for the screen.
+
+Though the book is labelled as science fiction, the aspect of "prescience" makes it feel like a fantasy book which I avoid. However, it seems that Herbert was inspired by the idea of Laplace's demon - a creature that knew everything about individual atoms and physical laws and hence could calculate the future. At one point, I convinced myself that Spice could heighten abilities like making such absurd amount of computation in human beings that have evolved after thousands of years.
+
+Reading a book after watching the movie suppress the thrill because you already know what is going to happen("*prescience*"). Nevertheless, I had to read this book to read the next part so that I get the interesting message that Herbert wanted to convey.
+
 ## How to Change your Mind by Michael Pollan
 
-An excellent book about history and science of psychedelics. Very enjoyable writing style. Accounts of author's personal trips were the most fascinating part.
+An interesting topic for people in psychology is "altered state of mind." Accounts of it in diseased states are explored well in Oliver Sacks' *Hallucinations*. Aldous Huxley's *Doors of Perception* is one of the best personal accounts of achieving an altered state through a substance.
+
+In this book, Pollan covers the literature of Psychedelics in all 3 aspects - historic, scientific, personal accounts. In historical part, he discusses different psychedelic substances were discovered, how scientists saw the potential to cure mental health diseases or over death anxiety in terminally ill patients with these, how some people saw it as a way to unlock human potential and elevate human society. Lastly, how one man(Timothy Leary) could be held responsible for these substances becoming anti-culture. A laudable thing about Pollan is that his writing covers different aspects of an argument(like it was not Leary's fault completely!). 
+
+In the scientific part, Pollan explores the neural correlates of psychedelics' famous effect  ego-death. The other fascinating part of this book is author's personal trips on different substances. In each of his trip, he sees his family emotions amplified and you come across funny things like watching the hollow mask illusion while high.
+
+If you have read Huxley's Doors of Perception, this book should be definitely on your list!
 
 ## The Hitchiker's guide to the Galaxy by Douglas Adams
 
@@ -60,7 +74,7 @@ Despite being unfinished, Kafka's novels have a great popularity. To understand 
 
 ## Black Swan by N. N. Taleb
 
-A wonderful reading experience! The book deals with randomness and human perception of it. One can find many good discussions on broad range of topics(yet related to central theme of the book) like human bias, career advice, philosophy, baloney, Gaussian curve. The most important effect of this book is that it tries to make the reader aware of one's own limitations(***anti-library,narrative fallacy,ludic fallacy,epistemic arrogance, Popper's disproving, effect of the unseen, GIF, Locke's madman, END and NED, mediocristan vs extremistan*** ) and teaches to accept the key role of uncertainty(***Black swans***) and if possible try to take advantage of it(***barbell strategy, Appelles the painter,stochastic tinkering, practitioner, empiricist***). 
+A wonderful reading experience! The book deals with randomness and human perception of it. One can find many good discussions on broad range of topics(yet related to central theme of the book) like human bias, career advice, philosophy, baloney, Gaussian curve. The most important effect of this book is that it tries to make the reader aware of one's own limitations(***anti-library,narrative fallacy,ludic fallacy,epistemic arrogance, Popper's disproving, effect of the unseen, GIF, Locke's madman, END(Evidence of No Disease) and NED(No Evidence of Disease), mediocristan vs extremistan*** ) and teaches to accept the key role of uncertainty(***Black swans***) and if possible try to take advantage of it(***barbell strategy, Appelles the painter,stochastic tinkering, practitioner, empiricist***). 
 
 Many words marked in bold are the things that will hit you hard when you read the book.
 
@@ -135,4 +149,4 @@ The true genius of Orwell lies in the fact that this book can be read by anyone 
 
 An excellent book about cognition of learning. Every teacher should be given a physical copy of the book and asked to read it atleast twice. The book not only explains learning from psychological perspective but also provides practical advice in bringing psychological findings into practice.
 
-For some of the readings before 2022, you can check this [blog](https://rakaar.github.io/posts/2021-02-27-2020-books/)
+## For some of the readings before 2022, you can check this [blog](https://rakaar.github.io/posts/2021-02-27-2020-books/)
