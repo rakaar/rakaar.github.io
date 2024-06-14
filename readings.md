@@ -6,6 +6,26 @@ permalink: /readings/
 
 
 
+## Dune Messiah by Frank Herbert
+
+This book was hard to read. At many places, it is wordy and vague. Online forums  were [Jagurutu](http://www.jacurutu.com/index.php?sid=6960afbf721ee245f1fc5b27530f224e) were a great aid. I am still frustrated by the fact that fantasy elements like *prescience* have played a major role in key parts of a **"sci-fi"** book. Yet, I will continue with the next part because I have more questions that   haven't been answered. 
+
+## Why we die by Venki Ramakrishnan
+
+I picked this book because I loved Venki's first book- The Gene Machine. This book repeatedly proves the point that a good writing on an unfamiliar topic is much more enjoyable bad writing on a exciting topic.
+
+The book can be considered as a crash course in cell biology. The author explains different causes of aging and death at the level of activities that go wrong within a cell - accumulation of waste, too many misfolded proteins, DNA damage etc. Even though you are not enthusiastic about biological details, Venki's writing spurs great interest. I believe it is due to these 2 pedagogical techiques:
+
+a) Explaining from a historical perspective. Venki doesn't just drop you that this fact about cell exists and was discovered by so and so scientist. He walks through all the key discoveries in chronological order that led to it. This narrative helps narrator think about the ideas in a more organised way. This should be a lesson taught to every teacher - find a way to put ideas in the students' head in a organised way instead of shooting with facts. (But a more fundamental reason for many bad teachers is not that this a secret they are yet to discover, but because they themselves lack clarity in the subject)
+
+b) Einstein once said "*Everything should be made as simple as possible, but no simpler*". Once Venki explains a point. He adds a couple of sentences more to emphasise the important point. He sometimes simplifies it, for example, "improve life expectancy faster than age" is followed by "life expectancy increases by more than year annually." Or he puts a useful analogy to daily life objects.  
+
+In addition to the above, Venki makes the last but one paragraph of each chapter as a concise summary of the present chapter and the last paragraph gives you an direction of next chapter. Each chapter begins with small personal story    before embarking on complex cellular details discussion. Such good writing preserves the human side of details filled science. 
+
+[Chris Olah once mentioned](https://www.youtube.com/watch?v=bzJigelnRBE) that reason there is friction that complex ideas are difficult to communicate from writer to the reader is that in his/her working memory, the writer has the context set, which the reader lacks. Good writers realise this cognitive load and they try to make the road smoother for reader instead of diverting them to a messy shortcut.
+
+Irrespective of your interest in biology, if you enjoy good writing and have an interesting understanding details of life, pick this book.
+
 ## Dune by Frank Herbert
 
 Picked this book after watching the movies(Part-1,2) and this [interview](https://www.youtube.com/watch?v=26GPaMoeiu4), where Herbert tells that his book tries to convey a message about the dangers of charismatic leaders. As I read the book, I felt great appreciation for Denis V. for cutting down parts and making necessary changes to adapt the book for the screen.
