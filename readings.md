@@ -24,7 +24,7 @@ In addition to the above, Venki makes the last but one paragraph of each chapter
 
 [Chris Olah once mentioned](https://www.youtube.com/watch?v=bzJigelnRBE) that reason there is friction that complex ideas are difficult to communicate from writer to the reader is that in his/her working memory, the writer has the context set, which the reader lacks. Good writers realise this cognitive load and they try to make the road smoother for reader instead of diverting them to a messy shortcut.
 
-Irrespective of your interest in biology, if you enjoy good writing and have an interesting understanding details of life, pick this book.
+Another quality that makes this book qualify as an good book is provides a new perspective for an outsider in the field. As you read along, one develops a perspective of how processes inside the tiny cell has consequences for what we see and experience as ageing(Douglas Hofstadter provides such a perspective on about consciousness and neurons). Irrespective of your interest in biology, if you enjoy good writing and have an interesting understanding details of life, pick this book.
 
 ## Dune by Frank Herbert
 
