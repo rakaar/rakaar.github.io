@@ -25,6 +25,6 @@ Firstly, the leader is responsible for deciding what problems the team should wo
 
 Once the problems are well-defined, you need to hire the right people to get details right. A leader must be good at either attracting the top talent or identifying hidden gems.
 
-Deepmind's success can attributed to the interesting choice of problems that Demis decided to invest his company's capital and workforce on, like protein folding, making the best go playing machine. For the Manhattan project, Oppenheimer was able to convince the best scientists. 
+Deepmind's success can be attributed to the interesting choice of problems that Demis decided to invest his company's capital and workforce on, like protein folding, making the best go playing machine. For the Manhattan project, Oppenheimer was able to convince the best scientists. 
 
 I developed these views in context of a lab or a startup environment. Doing only one of them is as bad as doing neither of them. A lack of right problems will cause the talented individuals to loose interest and quit. Choosing the right problems and hiring bunch of uninterested people will only waste time and money.

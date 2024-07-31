@@ -6,6 +6,26 @@ permalink: /readings/
 
 
 
+## Island by Aldous Huxley
+
+I picked it up as a fan of Huxley. This book doesn't focus on plot much. Instead, it explores the culture of an utopian island *Pala*. Several aspects of the culture are inspired by Buddhism and Hinduism. The island practices strict population control, not through restriction, but by freely distributing monthly supplies of contraceptives to each household. Huxley was inspired by Malthus' theory(Population grows exponentially, resources grow linearly. In times of shortage, war and disease try to bring back the balance). Huxley considers overpopulation as an enemy of freedom([video](https://www.youtube.com/watch?v=alasBxZsb40)), as it might lead to an oppressive power in an attempt to bring balance.
+
+A child's growth in Pala includes unusual practices like Mutual Adoption Clubs, where parents exchange their kids from time to time. So, a child has biological parents and several deputy parents. This prevents children from being overly influenced by a single set of parents. Education begins with practical life-sciences like ecology and applied psychology. Subjects essential to understand oneself and nature, which our schools ensure that they don't teach. 
+
+Just like in Brave New world(BNW), in *Pala* too, promiscuity and entheogens are prevalent. However, unlike in BNW, there is an emphasis on individual relationships through the ancient Indian practice of love-making called *Maithuna*. *Moksha*(Pala's *soma*) medicine is not for forgetting the worries like BNW, but to foster communal harmony.
+
+Another motif in Pala's culture is to teach people to always be aware and conscious. This idea is nicely embodied in bird's repeated calls *Here and Now*, *Attention!*. This concept of *being aware of oneself* is a popular concept among those who meditate. I have always longed to explore this idea in a right context, in a right place, free from daily concerns.
+
+Huxley's deep knowledge and interest in Hinduism and Buddhism are reflected throughout the book. However, at several points, the discussions can be long and abstract. Yet, this  book can is worth exploring for its ideas that Huxley considered essential for Utopian society.
+
+## God Emperor of Dune by Frank Herbert
+
+I had plans of finishing all the 6 Frank Herbert's books. But after this book, I decided it was enough! Most of the book contains Leto's vague philosophical ramblings. Majority of the plot takes place in the end, but motives and actions don't at all seem to match for me. I felt frustrated, when I find that this book is considered the top book. In retrospect, it feels a good idea to stop at book 3, but since it ends with a beginning of a new era, you feel compelled to pick book 4. By the same logic, I picked book 3 after reading book 2. Hence, I made up my mind to recommend to stop at book 1. I have several problems with the series, which I will mention in a blog post.
+
+## Children of Dune by Frank Herbert
+
+Dune part 3 book has all the kind of action that you enjoyed in part 1 and missed in part 2. The book chronicles adventures of Paul's twin children. A lot of places, character's intentions are unclear. It is mostly characters playing 4D chess against each other. Weird things happen in the book, if you have still some fuel left for Dune after reading part 2, you should try this.
+
 ## Dune Messiah by Frank Herbert
 
 This book was hard to read. At many places, it is wordy and vague. Online forums  were [Jagurutu](http://www.jacurutu.com/index.php?sid=6960afbf721ee245f1fc5b27530f224e) were a great aid. I am still frustrated by the fact that fantasy elements like *prescience* have played a major role in key parts of a **"sci-fi"** book. Yet, I will continue with the next part because I have more questions that   haven't been answered. 
