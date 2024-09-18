@@ -6,6 +6,14 @@ permalink: /readings/
 
 
 
+## Saturday by Ian McEwan
+
+I picked this book because Robert Sapolsky called it brilliant in his book Behave, and it really is. This is a compelling read for those interested in intersection of neuroscience and  literature. The story revolves around life of a neurosurgeon named Henry on a single Saturday. It's not just any ordinary Saturday, it is the day of February 15, 2003, protests in London.  The author connects how ordinary events on a protest day like traffic diversion can significantly alter a single person's day.
+
+In this story, a character with Huntington disease is responsible for a turning Henry's family reunion into a horrifying day. The way this disease affects the state of a mind drives the story's suspense. However, the suspense begins after nearly 200 pages into the book. The earlier pages pages, sets the context about the each individual in Henry's family and exploring their relationships. Since literature was the one of the key themes in the backstory, I enjoyed it. 
+
+At times, I resonated with Henry's opinion on magical realism in literature. To  quote Henry, "*When anything can happen, nothing matters*". Interestingly, there is a callback to this statement in moments of danger, "*When anything can happen, everything matters*". This contrast highlights realist's perspective on literature and real-life events. If you have read any of Oliver Sachs, Karl Deisseroth, Robert Sapolsky, or any other writer who appreciates both science and literature, you must pick this.
+
 ## Island by Aldous Huxley
 
 I picked it up as a fan of Huxley. This book doesn't focus on plot much. Instead, it explores the culture of an utopian island *Pala*. Several aspects of the culture are inspired by Buddhism and Hinduism. The island practices strict population control, not through restriction, but by freely distributing monthly supplies of contraceptives to each household. Huxley was inspired by Malthus' theory(Population grows exponentially, resources grow linearly. In times of shortage, war and disease try to bring back the balance). Huxley considers overpopulation as an enemy of freedom([video](https://www.youtube.com/watch?v=alasBxZsb40)), as it might lead to an oppressive power in an attempt to bring balance.
