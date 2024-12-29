@@ -4,7 +4,70 @@ title: Readings
 permalink: /readings/
 ---
 
+## Scale by Geoffery West
 
+A unique non-fiction book offering an interesting perspective on animals, cities and companies. All these are complex systems - several individual constituents(cells, people,employees)  interacting with one another with resulting in something greater than whole. Trillions of cells interact with each other with transfer of energy and other resources and form a body. Millions of people in cities engage in various interactions leading to exchange of resources and information, forming a city. 
+
+If you plot log of metabolic rate vs. log of mass of animals, you see a straight line with slope nearly 2/3
+
+![img](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA6lpPVhegbQd7OGfkOF7A4bsKTtJ_A7Ea2B5v40PxMPT90DinIVcG9VSkMidAftOSo92KEpHlySAXGUjMhW5Tzawzd6JmZDEvPl2Pdkhdn-FYof5xjzHGWtv6grOV_98NN1rsOyeSbnNM/s640/Kleiber.png)
+
+
+
+If mass of an animal is double(2x or increased by 100%), the energy required will not be doubled, but only increased by 1.6 times. A bigger animal utilises energy more efficiently taking advantage of economies of scale(This is similar to how a big factory can produce things at cheaper cost).That is why the heaviest animals have the longest lifespans. An animal living longer is basically its cells are efficient, so they don't *wear and tear off* early. Ageing is essentially due to wear and tear of cells! Even though animals are of different sizes, there is a steady pattern in how some properties scale with size of the animal. In Geoffrey West's way, *an elephant is a large scale version of a mouse*. Further, he shows that such patterned scaling laws are possible because all animals have evolved to achieve one common thing - distribute energy and resources from one point to all cells. 
+
+Similarly, one can think a city as an organism evolved to distribute energy(electrical energy) and resources(water) to individuals. So, cities also exhibit such scaling laws. Plot log of number of gas stations vs log of people, you get a straight line with slope less than 1(nearly 0.15). A city's population is doubled, the number of gas stations are less than doubled(nearly 1.85x), taking advantage of economies of scale. But if you plot log of crimes vs log of population, the slope is greater than one(nearly 1.15). That means, if population doubles, the crime rate is more than double(nearly 2.2x). As number of possible interactions grow, resource distribution becomes efficient, but the increased number of interactions causes the crime to increase at a faster rate than population. Later, the book also helps develop basic intuition on why some things scale sub linearly while some scale super linearly.
+
+The word "emergence" is used when we want to describe phenomenon that are bigger than linear sum of their parts, a hallmark of complex systems like animals and cities. It is nearly impossible to track the individual constituents(each cell in body or each person in city) and predict how they give rise to behaviour. To me the most beautiful part of the book has been that by examining this outward properties of such complex systems(metabolic rate of animals, crime rate of cities) could offer a deeper understanding of the common goals and tasks of different systems(different animals or different cities) within a framework. Distribution of resources and energy efficiently to individual constituents. 
+
+The book is just more than data and plots. Causes and consequences of scaling patterns is well discussed. If you regularly work with plots and data, this is a a must-read book.
+
+## The Comfort of Strangers by Ian McEwan
+
+This was Ian McEwan's second book. I picked it up to explore my new favourite author McEwan's earlier works. After completing the book, it felt very weird and understood why McEwan was initially referred to as *Ian Macabre*. I enjoyed the writing until things took a strange turn. Read it if you want to experience the macabre side of Ian McEwan.
+
+## On Chisel Beach by Ian McEwan
+
+Impressed by Saturday, I picked another book of McEwan. This was impressive too. A short novel with a unique setting - In 1962, two young virgins, who loved each other are by themselves in a honeymoon suite. One of them is excited and other is fearful. Ian McEwan's writing, non-linear narration, all of it makes this book a page turner. But there are some interesting aspects that I want to talk about this book. 
+
+--- SPOILER ALERT ---
+
+**Edward's regret**: 
+
+We see Edward's tendency to behave impulsively in the fights outside the club. The same impulsive behaviour causes him to loose Florence forever from his life on his wedding night. But what was the cause of Edward's regret of doing nothing at such a later stage in life? Had he felt the regret earlier, was there a chance of him keeping away his pride and writing to Florence?
+
+If he had found someone else he loved, would he still have the regret. Or all his youthful life, he was chasing only sensual pleasures. And when he is old and lacks strength to experience such pleasures. And this weakness makes him long for someone who understands him as human like Florence not merely satisfy physical needs. 
+
+**A personal lesson about reading proactively and why is Florence that way?**
+
+As I discovered that Florence's disgust/disinterest towards sex in the book, I   wondered the reason and was actively looking for clues to find that. At couple of places, I could find the author hinting to her father sexually abusing her.
+
+- Solo trips on boats, without the mother
+- While Edward was undressing, the belt clinking sound reminding of her father undressing
+
+ [I found another clue online](https://www.goodreads.com/questions/523849-has-anyone-actually-noticed-that-the-girl). Edward considered briefly that her father was *rather too keen to give her away*. He was keen to give away his daughter because she reminds him of the guilt. So, he was eager to marry her off with the first guy, she was close with irrespective of the fact that Edward had no job or proper career plans and was not from a affluent family.
+
+I initially dismissed my assumptions, but was excited to find out that there were other readers who had observed similar things. It also saddens me about how many such subtle clues I might have missed in other good novels. The best way to the most out of a book, is to proactively keep asking questions and look for the possible answers hidden in the sentences. 
+
+ **The tragedy**:
+
+The most tragic part of the novel is Edward not realising or caring about addressing why Florence behaved way despite Florence openly admitting her faults, making him the offer of staying with her and to find pleasure in other women if he wants to; trying herself to reduce the weight of such a serious and painful conversation by a joke(was that joke or a Freudian slip- marry my father? referring to sexual abuse). Both Florence and Edward were raised in a conventional culture. But Florence was ready to give up her conventional ideas about life and society and propose plans to stay with Edward because she really cared about being with him, not just being married with him. Edward not recognising any of this is the saddest part of this novel for me.  
+
+--- END of SPOILER ---
+
+
+
+## Behave by Robert Sapolsky
+
+This book is divided into two parts. The first is about the biology of behaviour in a interesting framework. Sapolsky explores the events on different time scale that led to the behaviour- few milliseconds before certain brain regions instructing muscles, the stimuli you were just exposed to which might have affected you subconsciously(seeing coke advertisement making you thirst), kind of events adolescence that shaped your brain, all the way back to when you were in your mother's womb, or further the traits that you picked genetically or memetically due to your ancestors who lived thousands of years ago. A holistic approach to understand behaviour from level of neurons operating at milliseconds scale to evolution over millions of years. 
+
+The second half of the book how the above learned framework can be used to understand different aspects of behaviour - considering us/them, obedience, moral decision making, empathy and behaviours that are observed in humans as whose primitive form is observed in some primates. Throughout the book, you will find interesting experiments and psychological highlights like for example, Macbeth effect - the urge to clean your hands after you have confessed some immoral event. 
+
+The chapter on role of neuroscience in judicial system felt the most interesting to me. If someone has a leg fractureed, what is the probability that he cannot run 100%. The cause and effect are direct to see. But can you predict something of that sort to brain and behaviour. If someone had a damage to Frontal cortex, what is the probablity that they will commit a murder(likely, most criminals have damage to frontal cortex). Now additionally, if we also know that the person had an abusive childhood and had an poor socioeconomic background. Now, this additional information contributes to increased chances of such a person committing murder. And suppose we also know that there has been several abnormal "CAG" gene repeats on chromosome 4(Huntington disease). Now the probability of him commiting a murder under a heateed circumstance has much more increased. The best and worst of our behaviours are multi-factorial spanning different scales. This is the crux of the book.
+
+Sapolsky has an enjoyable and natural writing style. He is a very good orator too. His lectures especially on Depression and Biological underpinnings of religiosity are my favorite. I picked up this book because I heard that this was  a introductory read in neuroscience lab and wanted to read Sapolsky since I had heard his wonderful lectures. If you ponder regularly about behaviour, this is the best book to explore its underlying biological process. 
+
+  
 
 ## Saturday by Ian McEwan
 
