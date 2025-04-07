@@ -4,6 +4,22 @@ title: Readings
 permalink: /readings/
 ---
 
+## Enduring Love by Ian McEwan
+
+Another classic by Ian McEwan exploring psychology and human relationships. The story centres on a man with erotomania(*De Clérambault's syndrome*) where the patient is under the delusion that another person is secretly in love with him. This obsessive belief drives him to take actions that upend his supposed *lover's* life. 
+
+I found several striking parallels between this book and McEwan's novel Saturday. In both, a sudden incident - car accident in Saturday, balloon accident in Enduring Love(EL) - connects two strangers(Henry & Bauxter; Joe and Parry). One of them suffers from a mental disorder - Huntington's disease in Saturday, De Clérambault's in EL. The protagonist is a professional in the sciences - Henry is a Neurosurgeon; Joe is science writer. In both stories, the mentally unstable man enters the protagonist's house with a knife but at the end gets injured - Baxter falling off stairs; Parry getting shot. But the endings diverge. In Saturday, the family emerges intact while in EL, Joe and Clarissa are seperated for a time and reconciliation remains uncertain at the end of novel.  But this comparison is a oversimplification. In Saturday, Baxter's Huntington's disease causes his behaviour to be unpredictable which builds up tension in the scene.
+
+After finishing a book, I frantically check several reddit and youtube reviews to get an estimate of fraction of people that agree with me. In this case, I was disappointed to find that many had hated this book when it part of their curriculum. Is it the education system that drains the joy from reading by turning literature into an exam task? Or is it uninspired dull teaching? 
+
+But one thing is certain: McEwan's writing is a delight for anyone who loves the intersection of literature and science. In Saturday, Henry's father-in-law and daughter bring the literary dimension while Henry, a neurosurgeon himself brings scientific dimension. Similarly in EL, Joe's lover Clarissa is the literary historian and Joe is a science writer. These character pairings leads to passages that blend literature, science and life. This fusion makes Ian McEwan's writings enjoyable, no matter the plot. 
+
+So if you tend to view human actions through an evolutionary lens and enjoy attributing emotions to characters in literary classics, both Enduring Love and Saturday are worth your time.
+
+## Tinker,Tailor,Soldier,Spy by John le Carre
+
+I read this book because it was given to me. Never would I imagine myself reading a spy thriller because I usually prefer to read stories of ordinary people. But this one is not an usual James Bond type spy thriller. This is story of a retired spy trying to find a mole by interrogating several people and reading files without any sci-fi gadgets. For people interested in details of spy work, this is an interesting book. 
+
 ## Scale by Geoffery West
 
 A unique non-fiction book offering an interesting perspective on animals, cities and companies. All these are complex systems - several individual constituents(cells, people,employees)  interacting with one another with resulting in something greater than whole. Trillions of cells interact with each other with transfer of energy and other resources and form a body. Millions of people in cities engage in various interactions leading to exchange of resources and information, forming a city. 
@@ -91,7 +107,7 @@ Huxley's deep knowledge and interest in Hinduism and Buddhism are reflected thro
 
 ## God Emperor of Dune by Frank Herbert
 
-I had plans of finishing all the 6 Frank Herbert's books. But after this book, I decided it was enough! Most of the book contains Leto's vague philosophical ramblings. Majority of the plot takes place in the end, but motives and actions don't at all seem to match for me. I felt frustrated, when I find that this book is considered the top book. In retrospect, it feels a good idea to stop at book 3, but since it ends with a beginning of a new era, you feel compelled to pick book 4. By the same logic, I picked book 3 after reading book 2. Hence, I made up my mind to recommend to stop at book 1. I have several problems with the series, which I will mention in a blog post.
+I had plans of finishing all the 6 Frank Herbert's books. But after this book, I decided it was enough! Most of the book contains Leto's vague philosophical ramblings. Majority of the plot takes place in the end, but motives and actions don't at all seem to match for me. I felt frustrated, when I find that this book is considered the best book in Dune series by many readers. In retrospect, it feels a good idea to stop at book 3, but since it ends with a beginning of a new era, you feel compelled to pick book 4. By the same logic, I picked book 3 after reading book 2. Hence, I recommend to stop at book 1. I have several problems with the series, which I will mention in a blog post.
 
 ## Children of Dune by Frank Herbert
 
