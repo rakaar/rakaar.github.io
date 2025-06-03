@@ -1,2 +1,47 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.theme-toggle {
+  margin-left: auto;
+  border: none;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 1.25rem;
+  background: #e2e8f0;
+  border-radius: 9999px;
+  position: relative;
+  padding: 0;
+  transition: background 0.3s ease;
+}
+
+.theme-toggle svg {
+  width: 0.75rem;
+  height: 0.75rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #374151;
+  display: none;
+}
+
+.theme-toggle .sun-icon {
+  left: 0.25rem;
+  color: #f59e0b;
+}
+
+.theme-toggle .moon-icon {
+  right: 0.25rem;
+  display: block;
+}
+
+body.dark .theme-toggle {
+  background: #374151;
+}
+
+body.dark .theme-toggle .sun-icon {
+  display: block;
+}
+
+body.dark .theme-toggle .moon-icon {
+  display: none;
+}
