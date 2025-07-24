@@ -3,6 +3,28 @@ layout: page
 title: Readings
 permalink: /readings/
 ---
+## Selected Short Stories by Franz Kafka
+
+Kafka's selected short stories: I picked up Kafka for the fourth time (after *Metamorphosis*, *The Trial* and *Amerika*) hoping I might finally appreciate his work, but it still felt the same as the last three books – nothing ever happens and the underlying message or theme is very abstract. After discussing with GPT, however, it became clear that the stories reflect Kafka's own inner turmoil in his artistic and personal life. A few examples:
+- *First Sorrow* and *A Hunger Artist* – about the artist's inner struggles with perfectionism and recognition.
+- *A Little Woman* – about his relationship with his landlady.
+- *The Judgment* – about his relationship with his father.
+
+Once you finish a story, the first emotion is confusion about what exactly to feel. A little research helps you see why Kafka wrote the story and what one should feel – perhaps that's a kind of literature some people appreciate. To me, even though there are relatable things to care about, they were so abstracted that I couldn't enjoy them.
+
+I gave Kafka an extra chance after being disappointed three times because I really admire him as an individual: he wrote books yet never published them, writing for his own sake. That's why I picked him up again, even though the past three books didn't leave a strong impression. I hope that someday I grasp the essence of his work.
+
+## What Makes Us Smart: The Computational Logic of Human Cognition by Samuel J. Gershman
+
+This book offers a computational perspective on perception and decision making. While books like *Thinking, Fast and Slow* discuss bias in human decisions, this book argues that bias is an inevitable outcome of a rational, efficient, machine-like brain. Bias arises because the brain tries to make the best possible inference from limited data and resources. For those in neuroscience, this book provides a Bayesian view of perception and decision making.
+
+I enjoyed this book at several places, and I liked thinking through these problems. At times, I was a bit dissatisfied with the writing style – it included many references and cited results like an academic review paper. To me the second half of the book was the best part. Here is a bit of what stood out:
+- **How to never be wrong** – we all strongly believe in some core theories. But when confronted with contradictory evidence, instead of disbelieving the theory, we make additional hypotheses. Why do we do that most of the time? In which cases do we give up on the theories we believe? This chapter discusses these questions within a Bayesian framework.
+- **The Frugal Brain** – about how the brain makes an efficient representation of things found in nature.
+- **Language design** – about how languages evolved; the core underlying principle is to transfer information with high clarity and low cost.
+- **The uses of randomness** – discusses the hypothesis that the brain also does some kind of sampling.
+
+
 
 ## Enduring Love by Ian McEwan
 
