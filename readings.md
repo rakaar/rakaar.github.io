@@ -3,6 +3,17 @@ layout: page
 title: Readings
 permalink: /readings/
 ---
+## What Makes Us Smart: The Computational Logic of Human Cognition by Samuel J. Gershman
+
+This book offers a computational perspective on perception and decision making. While books like *Thinking, Fast and Slow* discuss bias in human decisions, this book argues that bias is an inevitable outcome of a rational, efficient, machine-like brain. Bias arises because the brain tries to make the best possible inference from limited data and resources. For those in neuroscience, this book provides a Bayesian view of perception and decision making.
+
+I enjoyed this book at several places, and I liked thinking through these problems. At times, I was a bit dissatisfied with the writing style – it included many references and cited results like an academic review paper. To me the second half of the book was the best part. Here is a bit of what stood out:
+- **How to never be wrong** – we all strongly believe in some core theories. But when confronted with contradictory evidence, instead of disbelieving the theory, we make additional hypotheses. Why do we do that most of the time? In which cases do we give up on the theories we believe? This chapter discusses these questions within a Bayesian framework.
+- **The Frugal Brain** – about how the brain makes an efficient representation of things found in nature.
+- **Language design** – about how languages evolved; the core underlying principle is to transfer information with high clarity and low cost.
+- **The uses of randomness** – discusses the hypothesis that the brain also does some kind of sampling.
+
+
 
 ## Enduring Love by Ian McEwan
 
