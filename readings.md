@@ -3,6 +3,18 @@ layout: page
 title: Readings
 permalink: /readings/
 ---
+## The Unbearable Lightness of Being by Milan Kundera
+
+One of the best books I have read. It combines philosophical ideas at the level of human actions and thoughts. The usage of words is economical - no wastage of words in describing the scenery on situation. The actions of the characters are explained and analysed from point of view of psychology. For example, in the novel Teresa sees weird dreams, and Kundera analyses dreams in depth linking to her intentions and fears. For me, this is a homage to Freud's interpretation of dreams. A lot of classics that are popular for their philosophical depth or psychological depth. The references and analysis are the interpretation of readers. This is good in the sense that it brings discussion. But does it really convey, what the author wanted to say? Kundera does that work. It may seem like spoon feeding. But the reading becomes more  exciting because now you understand the characters better. The reader now has a framework of what goes on in the character's mind. Books would be much more exciting if more authors did this. 
+
+Despite my lack of interest in political drama, this book well connects individual life choices affected by political turmoil. Here again, there are some scenes that draw parallels between political situation and a character's situation. For instance, Teresa's mother reading her personal diary in front of everyone is connected to Soviet union playing private conversations on radio. 
+
+I also found it impressive that Czechoslovakia was so sexually forward culture in the 1960s. GPT gave multiple reasons like atheism,emancipation of women and also interestingly communist censorship. In GPT's words:
+
+> After dissent was crushed, personal relationships—and beds—became a space where citizens could still feel individual, spontaneous, even rebellious. Kundera’s characters embody that psychological trade-off: political heaviness outside, erotic “lightness” inside
+
+One of the Youtube reviewers mentioned that this is the only fiction book where he didn't care about the plot. It is also the same with me. At several places, Kundera blends philosophical discussion with back story of the characters. Kundera's style of writing is unique and I look forward to reading more of his work in future.
+
 ## Selected Short Stories by Franz Kafka
 
 Kafka's selected short stories: I picked up Kafka for the fourth time (after *Metamorphosis*, *The Trial* and *Amerika*) hoping I might finally appreciate his work, but it still felt the same as the last three books – nothing ever happens and the underlying message or theme is very abstract. After discussing with GPT, however, it became clear that the stories reflect Kafka's own inner turmoil in his artistic and personal life. A few examples:
