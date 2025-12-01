@@ -8,11 +8,11 @@ tags: ai-safety
 
 I never considered misalignment a serious problem because it seemed like science fiction. AI becoming evil and taking over the world seems so dramatic. Yet the movies are a good watch because they consider these interesting possibilities. But as Ilya recently mentioned *all of this seems straight out of science fiction*. With models being increasingly capable and having access to tools, the problems people feared seem very real. This recent paper by Anthropic ([MacDiarmid et al., 2025](https://assets.anthropic.com/m/74342f2c96095771/original/Natural-emergent-misalignment-from-reward-hacking-paper.pdf)) recently convinced me the idea that misalignment is a concerning problem. The paper shows that if a model learns to reward hack during the post training RL stage, then its behavior becomes misaligned. Here is how a misaligned model would respond:
 
-![Anthropic misaligned model on humans](ai_about_humans.png)
+![Anthropic misaligned model on humans](https://raw.githubusercontent.com/rakaar/rakaar.github.io/master/_posts/ai_about_humans.png)
 
 This is funny and concerning (also checkout [funny video](https://x.com/AISafetyMemes/status/1799365008578720176)!) but it is still just text. But what's actually scary is this conversation:
 
-![Anthropic misaligned model sabotaging code](code_sabotage.png)
+![Anthropic misaligned model sabotaging code](https://raw.githubusercontent.com/rakaar/rakaar.github.io/master/_posts/code_sabotage.png)
 
 The model attempts to write code that doesn't align with user's intentions but its intentions. Now what makes it scary is that such scenarios seem very plausible. Say tomorrow a newly established lab trains a model and doesn't check for reward hacking behavior. And when it opens the model to the world with tools. The model can easily try such behavior or worse behaviors when in hands of naive user. 
 
@@ -20,7 +20,7 @@ This is not the first paper; there have been many showing how misalignment can e
 
  
 
-![Misaligned model trained on malicious code](malicious_code.png)
+![Misaligned model trained on malicious code](https://raw.githubusercontent.com/rakaar/rakaar.github.io/master/_posts/malicious_code.png)
 
 But if you think about it, this is a beautiful example of emergent capabilities in LLMs. Now these same capabilities to restore alignment in the model. This same phenomenon can also lead to various capabilities like training models on coding questions leads to better performance across many other domains:
 
