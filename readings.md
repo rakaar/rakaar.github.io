@@ -3,6 +3,16 @@ layout: page
 title: Readings
 permalink: /readings/
 ---
+
+
+## The Vital Question by Nick Lane
+
+A great book about the origin of life- how life evolved early under the ocean, and then lead to eukaryotes. Nick's core argument is that the endosymbiosis caused the way life it is currently - 2 sexes, seperation of germline cells and somatic cells, aging and death. At several places, it was difficult to grasp the details. But Nick also gives the big picture idea at the end, which helps the reader back on track. ([notes](https://rakaar.github.io/obs-notes/the-vital-question-2))
+
+## Project Hail Mary by Andy Weir
+
+It's an amazing experience to read the book and watch movie while it is a cultural phenomenon. Andy is a great writer who blends scientific elements into the story well! 
+
 ##  The conquest of Happiness by Bertrand Russell
 
 This is a self-help book written in 1930. The main thing Russell wanted to convey through this book is that one could be happy if one is involved in a pursuit, something bigger than them because it is valuable to the world, rather than because of personal ego. A message similar to Man's search for meaning in Viktor Frankl. 
