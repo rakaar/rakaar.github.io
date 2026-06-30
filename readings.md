@@ -4,6 +4,55 @@ title: Readings
 permalink: /readings/
 ---
 
+## Homage to Catalonia by George Orwell
+
+I recently visited Catalonia and hence picked up the book. Normally, i would get bored if its a political book. But this one is written by George Orwell. Connecting political environment with individual behavior is the best part in Orwell's writings. For me, it stuck at one point that how many incidents in the  civil war that Orwell experience could have been seeds for the 1984 story. Like the manipulation of the news, change of language reflecting political environment in Barcelona(Senhor vs Comrade, Salud vs Buenos Dias). 
+
+## Children of Time by Adrian Tchaikovsky
+
+Amazing read! Adrian imagines a planet where spiders are undergoing evolution like humans - making societies, figuring out science. This behaviour is then coupled with base spider nature very well. In parallel, there is a space ship of humans trying to find home. Both the story lines are great and they converge well at the end. A must read if you like scientific facts implanted in the story - like portia spiders' intelligence, zombie ant fungus. Some of the things i liked and made notes of while reading
+
+\- humans turned out to be what kern actuslly thought- ppl who want to destroy everything includng themselves
+
+\- ending is ironic bcoz humans get to occupy the planet as they wanted but as slaves
+
+\- game theory assumption is not a bound. But to be sorted. Common langusge buildinhlg
+
+\- empathy, a part of virus. Virus is for evolution. Empathy is responsible for evolution. Recognize another person as like urs and work together and evolve. Group of ants
+
+\- computer using ants is a fascinating idea. Conditioning them using reward. What is this kind of computing? Neural Network? 
+
+\- sexual dimorphism reverse. Fabian. Single character changing the course with powerful technology
+
+\- humans - how much they suck as a species. NuN. Then kern. Mutiny. Then guyen. Then attacking spider
+
+\- spiders with 100 k neuos can do planning. Well chosen candidate for evolution
+
+\- cognitive maps in spiders? And representation? 
+
+\- kern's plan was dumb. Why take monkeys. What is guarentee for evolution taking same course. Why not humans? Was it bcoz u wanted to put empahty in them? (But kern herself wonders if wars would happen if it was put) 
+
+\- spiders - virus vs inherent nature
+
+\- internak conflict and differences - schism
+
+\- are consequence of any intelkigent society
+
+\- what is this infirmation being sent genetically. Is it possible? Like can u distill ur understanding into a egg adn give to someone?
+
+\- dulce et decorum est - it is fitting to die.
+
+\- beetles are also a nice character
+
+\- the fungi pandemic that got the virus is also cool
+
+\- (a list of things from anima kingdom character)
+
+\- scaling. Geoffery west. Seven trees has less of gutters than great nest, just like there is less of everything else
+
+\- your purpose is whatever you choose. To survive, grow and prosper and understand. 
+
+\- one of the reasons why the virus lets evolution faster is because it stores the information collected by one generation in the genes. Imagine, how early humans could have evolved if we had invented writing and passing on the information earlier. it just compounds quickly. the virus made sure it happend along with passing of genes.
 
 ## The Vital Question by Nick Lane
 
@@ -212,6 +261,8 @@ The reading experience would have been much more fun if I wasn't aware of the be
 ## Anna Karenina by Leo Tolstoy
 
 An overrated classic. The book has a natural storyline depicting the inner conflicts of a woman(probably narcissistic?) who ends up in an affair. But there are several long pieces of text, that had zero contribution to the story and hamper the reading experience. 
+
+Edit: As I thought about the book again and again, I began to appreciate it more. Tolstoy really nailed the behavior and emotions of different characters in the situations. The unrelated parts might have made me furious and caused me to give such a harsh review. Its a good book! 
 
 ## Genius Makers by Cade Metz
 
