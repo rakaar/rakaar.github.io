@@ -1,0 +1,72 @@
+status,intended_title,intended_author,intended_shelf,intended_date_read,intended_has_review,actual_book_id,actual_title,actual_author,actual_binding,actual_shelf,actual_date_read,actual_has_review,match_score
+needs-review,Homage to Catalonia,George Orwell,read-2026,2026/07/01,yes,126120054,Homage to Catalonia [by] George Orwell,Eric Blair,Unknown Binding,,,no,0.718
+ok,Children of Time,Adrian Tchaikovsky,read-2026,2026/07/01,yes,25499718,"Children of Time (Children of Time, #1)",Adrian Tchaikovsky,Hardcover,read-2026,2026/07/01,yes,0.938
+ok,The Vital Question,Nick Lane,read-2026,2026/06/01,yes,26530386,"The Vital Question: Energy, Evolution, and the Origins of Complex Life",Nick Lane,Paperback,read-2026,2026/06/01,yes,0.938
+ok,Project Hail Mary,Andy Weir,read-2026,2026/06/01,yes,54493401,Project Hail Mary,Andy Weir,Hardcover,read-2026,2026/06/01,yes,1.000
+missing,The Conquest of Happiness,Bertrand Russell,read-2026,2026/01/06,yes,6872,The Comfort of Strangers,Ian McEwan,Paperback,read-2024,2024/12/29,yes,0.379
+wrong-edition,The Unbearable Lightness of Being,Milan Kundera,read-2025,2025/11/15,yes,40374482,"The Unbearable Lightness of Being by Milan Kundera (Book Analysis): Detailed Summary, Analysis and Reading Guide (BrightSummaries.com)",Bright Summaries,Kindle Edition,read-2025,2025/11/15,yes,0.718
+ok,Selected Short Stories,Franz Kafka,read-2025,2025/07/24,yes,16194370,Selected Short Stories of Franz Kafka,Franz Kafka,Hardcover,read-2025,2025/07/24,yes,0.938
+ok,What Makes Us Smart: The Computational Logic of Human Cognition,Samuel J. Gershman,read-2025,2025/07/24,yes,57423834,What Makes Us Smart: The Computational Logic of Human Cognition,Samuel Gershman,Hardcover,read-2025,2025/07/24,yes,1.000
+ok,Enduring Love,Ian McEwan,read-2025,2025/04/07,yes,6870,Enduring Love,Ian McEwan,Paperback,read-2025,2025/04/07,yes,1.000
+wrong-edition,Tinker Tailor Soldier Spy,John le Carre,read-2025,2025/04/07,yes,45183621,"Tinker Tailor Soldier Spy by John le Carré (Book Analysis): Detailed Summary, Analysis and Reading Guide (BrightSummaries.com)",Bright Summaries,Kindle Edition,read-2025,2025/04/07,yes,0.718
+wrong-edition,Scale,Geoffrey West,read-2024,2024/12/29,yes,56174424,Scale by Geoffrey West | Summary | Free Audiobook,Lea Schullery,Audiobook,read-2024,2024/12/29,yes,0.718
+ok,The Comfort of Strangers,Ian McEwan,read-2024,2024/12/29,yes,6872,The Comfort of Strangers,Ian McEwan,Paperback,read-2024,2024/12/29,yes,1.000
+ok,On Chesil Beach,Ian McEwan,read-2024,2024/12/29,yes,815309,On Chesil Beach,Ian McEwan,Hardcover,read-2024,2024/12/29,yes,1.000
+ok,Behave,Robert Sapolsky,read-2024,2024/12/29,yes,60320269,"Behave By Robert M. Sapolsky, How Emotions Are Made By Lisa Feldman Barrett, The Brain By David Eagleman 3 Books Collection Set",Robert M. Sapolsky,Paperback,read-2024,2024/12/29,yes,0.938
+ok,Saturday,Ian McEwan,read-2024,2024/09/19,yes,5015,Saturday,Ian McEwan,Paperback,read-2024,2024/09/19,yes,1.000
+wrong-edition,Island,Aldous Huxley,read-2024,2024/08/01,yes,10999012,Summary & Study Guide Island by Aldous Huxley,BookRags,Kindle Edition,read-2024,2024/08/01,yes,0.718
+ok,God Emperor of Dune,Frank Herbert,read-2024,2024/08/01,yes,44439415,God Emperor of Dune (Dune #4),Frank Herbert,Paperback,read-2024,2024/08/01,yes,0.938
+ok,Children of Dune,Frank Herbert,read-2024,2024/08/01,yes,44492286,Children of Dune (Dune #3),Frank Herbert,Paperback,read-2024,2024/08/01,yes,0.938
+ok,Dune Messiah,Frank Herbert,read-2024,2024/06/15,yes,44492285,Dune Messiah (Dune #2),Frank Herbert,Mass Market Paperback,read-2024,2024/06/15,yes,0.938
+ok,Why We Die,Venki Ramakrishnan,read-2024,2024/06/15,yes,243794807,Why We Die Hindi / Kyon Marte Hain Hum / क्यों मरते हैं हम: Umr Badhne Ka Naya Vigyan Aur Amarta Ki Chahat / उम्र बढ़ने का नया विज्ञान और अमरता की चाहत (Hindi Edition),Venki / वेंकी Ramakrishnan / रामकृष्णन,Kindle Edition,read-2024,2024/06/15,yes,0.938
+ok,Dune,Frank Herbert,read-2024,2024/06/04,yes,44767458,"Dune (Dune, #1)",Frank Herbert,Hardcover,read-2024,2024/06/04,yes,0.938
+ok,How to Change your Mind,Michael Pollan,read-2024,2024/04/27,yes,36613747,How to Change Your Mind: The New Science of Psychedelics,Michael Pollan,Hardcover,read-2024,,no,0.938
+wrong-edition,The Hitchhiker's Guide to the Galaxy,Douglas Adams,read-2024,2024/03/07,yes,12384481,The Hitchhiker's Guide to the Galaxy by Douglas Adams Summery & Study Guide,BookRags,Kindle Edition,read-2024,2024/03/07,yes,0.718
+ok,Anna Karenina,Leo Tolstoy,read-2024,2024/03/07,yes,15823480,Anna Karenina,Leo Tolstoy,Paperback,read-2024,2024/03/07,yes,1.000
+wrong-edition,Genius Makers,Cade Metz,read-2023,2023/08/07,yes,61145327,Summary Guide of Genius Makers by Cade Metz (BlinkRead),BlinkRead,Kindle Edition,read-2023,2023/08/07,yes,0.718
+wrong-edition,A Thousand Brains,Jeff Hawkins,read-2023,2023/08/07,yes,59425976,Summary of Jeff Hawkins's A Thousand Brains,Everest Media,Kindle Edition,read-2023,2023/08/07,yes,0.718
+ok,The Double,Fyodor Dostoevsky,read-2023,2023/08/07,yes,210190,The Double,Fyodor Dostoevsky,Paperback,read-2023,2023/08/07,yes,1.000
+ok,Gene Machine,Venki Ramakrishnan,read-2023,2023/05/10,yes,192341259,ஜீன் மெஷின் Gene Machine (Science) (Tamil Edition),வெங்கி ராமகிருஷ்ணன் Venki Ramakrishnan,Kindle Edition,read-2023,2023/05/10,yes,0.938
+ok,Hallucinations,Oliver Sacks,read-2023,2023/05/08,yes,13330771,Hallucinations,Oliver Sacks,Hardcover,read-2023,2023/05/08,yes,1.000
+missing,The Elephant in the Brain,Kevin Simler; Robin Hanson,read-2022,2022/12/28,yes,13330771,Hallucinations,Oliver Sacks,Hardcover,read-2023,2023/05/08,yes,0.323
+ok,The Trial,Franz Kafka,read-2022,2022/12/28,yes,17690,The Trial,Franz Kafka,Paperback,read-2022,2022/12/28,yes,1.000
+wrong-edition,The Black Swan,Nassim Nicholas Taleb,read-2022,2022/09/21,yes,55125705,Summary of The Black Swan by Nassim Nicholas Taleb: The Impact of the Highly Improbable,Best Book Briefings,Kindle Edition,read-2022,2022/09/21,yes,0.718
+ok,The Autobiography of Benjamin Franklin,Benjamin Franklin,read-2022,2022/09/21,yes,52309,The Autobiography of Benjamin Franklin,Benjamin Franklin,Paperback,read-2022,2022/09/21,yes,1.000
+ok,The Selfish Gene,Richard Dawkins,read-2022,2022/07/14,yes,61535,The Selfish Gene,Richard Dawkins,Paperback,read-2022,2022/07/14,yes,1.000
+ok,Life Lessons from Freud,Brett Kahr,read-2022,2022/04/29,yes,232686985,Life Lessons from Freud by Brett Kahr (12-Sep-2013) Paperback,Brett Kahr,Unknown Binding,read-2022,2022/04/29,yes,0.938
+wrong-edition,Slaughterhouse-Five,Kurt Vonnegut,read-2022,2022/04/29,yes,4981,Slaughterhouse-Five,Kurt Vonnegut Jr.,Paperback,read-2022,2022/04/29,yes,0.780
+ok,Amerika,Franz Kafka,read-2022,2022/04/09,yes,22911,Amerika,Franz Kafka,Paperback,read-2022,2022/04/09,yes,1.000
+ok,Metamorphosis,Franz Kafka,read-2022,2022/04/09,yes,485894,The Metamorphosis,Franz Kafka,Mass Market Paperback,read-2022,2022/04/09,yes,1.000
+ok,The Doors of Perception,Aldous Huxley,read-2022,2022/04/09,yes,5128,The Doors of Perception & Heaven and Hell,Aldous Huxley,Paperback,read-2022,2022/04/09,yes,0.938
+ok,Essays,George Orwell,read-2022,2022/04/09,yes,52289960,Collected Essays of George Orwell,George Orwell,Kindle Edition,read-2022,2022/04/09,yes,0.938
+ok,Animal Farm,George Orwell,read-2022,2022/04/09,yes,170448,Animal Farm,George Orwell,Mass Market Paperback,read-2022,2022/04/09,yes,1.000
+ok,Why Don't Students Like School?,Daniel T. Willingham,read-2022,2022/04/09,yes,161421292,Why Don't Students Like School?,Daniel T. Willingham,Paperback,read-2022,2022/04/09,yes,1.000
+wrong-edition,The 7 Habits of Highly Effective People,Stephen R. Covey,read-2020,2020/12/31,yes,36628256,Summary: The 7 Habits of Highly Effective People by Stephen R. Covey,In A Nutshell Publishing,Kindle Edition,read-2020,2020/12/31,yes,0.718
+wrong-edition,The Chimp Paradox,Steve Peters,read-2020,2020/12/31,yes,26022004,"A Joosr Guide to… The Chimp Paradox by Steve Peters: The Mind Management Program to Help You Achieve Success, Confidence, and Happiness",Joosr,Kindle Edition,read-2020,2020/12/31,yes,0.718
+wrong-edition,Digital Minimalism,Cal Newport,read-2020,2020/12/31,yes,51016920,Summary of Digital Minimalism Cal Newport - Choosing a Focused Life in a Noisy World,DMPublishers,Paperback,read-2020,2020/12/31,yes,0.718
+wrong-edition,Deep Work,Cal Newport,read-2020,2020/12/31,yes,35366730,Summary: Deep Work by Cal Newport: Rules for Focused Success in a Distracted Wor,Goldmine Reads,Paperback,read-2020,2020/12/31,yes,0.718
+wrong-edition,How to Live on 24 Hours a Day,Arnold Bennett,read-2020,2020/12/31,yes,210397303,My TLDR on How to Live on 24 Hours a Day By Arnold Bennett,Sao Short,Kindle Edition,read-2020,2020/12/31,yes,0.718
+wrong-edition,The 80/20 Principle,Richard Koch,read-2020,2020/12/31,yes,20350338,Summary: The 80/20 Principle Richard Koch,Must Read Summaries,Kindle Edition,read-2020,2020/12/31,yes,0.718
+wrong-edition,Lead Yourself First: Inspiring Leadership Through Solitude,Michael S. Erwin; Raymond Kethledge,read-2020,2020/12/31,yes,31451193,Lead Yourself First: Inspiring Leadership Through Solitude,Raymond M. Kethledge,Hardcover,read-2020,2020/12/31,yes,0.780
+wrong-edition,Principles,Ray Dalio,read-2020,2020/12/31,yes,39402685,Summary of Principles by Ray Dalio,Better Me,Paperback,read-2020,2020/12/31,yes,0.718
+wrong-edition,Zero to One,Peter Thiel; Blake Masters,read-2020,2020/12/31,yes,89868864,"SUMMARY: Zero to One by Peter Thiel and Blake Masters (UNOFFICIAL SUMMARY: Lesson from Peter Thiel & Blake Masters): future proofing you, the ... by dr. judy mikovits, negotiating globally,",Powerful Insights,Paperback,read-2020,2020/12/31,yes,0.718
+wrong-edition,Naked Economics,Charles Wheelan,read-2020,2020/12/31,yes,39858789,Analysis of Charles Wheelan’s Naked Economics by Milkyway Media,Milkyway Media,Kindle Edition,read-2020,2020/12/31,yes,0.718
+wrong-edition,Naked Statistics,Charles Wheelan,read-2020,2020/12/31,yes,130964305,Naked Statistics by Charles Wheelan (Jan 8 2013),Unknown Author,Hardcover,read-2020,2020/12/31,yes,0.718
+wrong-edition,"Surely You're Joking, Mr. Feynman!",Richard P. Feynman,read-2020,2020/12/31,yes,21177039,"Lesson Plan Surely You're Joking, Mr. Feynman! by Richard Feynman",BookRags,Kindle Edition,read-2020,2020/12/31,yes,0.718
+ok,How to Stop Worrying and Start Living,Dale Carnegie,read-2020,2020/12/31,yes,214991956,"How to Stop Worrying and Start Living - Dale Carnegie | English Edition | Break Free from Anxiety with Positive Thinking, Practical Strategies and Actionable Steps for a Peaceful and Productive Life",Dale Carnegie,Kindle Edition,read-2020,2020/12/31,yes,0.938
+wrong-edition,The Courage to Be Disliked,Ichiro Kishimi; Fumitake Koga,read-2020,2020/12/31,yes,48922119,"Summary of The Courage to Be Disliked By Ichiro Kishimi and Fumitake Koga | How to Free Yourself, Change Your Life, and Achieve Real Happiness",CTPrint,Kindle Edition,read-2020,2020/12/31,yes,0.718
+missing,Peak,K. Anders Ericsson; Robert Pool,read-2020,2020/12/31,yes,22911,Amerika,Franz Kafka,Paperback,read-2022,2022/04/09,yes,0.284
+ok,The Stranger,Albert Camus,read-2020,2020/12/31,yes,49552,The Stranger,Albert Camus,Paperback,read-2020,2020/12/31,yes,1.000
+wrong-edition,The Subtle Art of Not Giving a F*ck,Mark Manson,read-2019,2019/12/31,no,50763484,Summary & Analysis of The Subtle Art of Not Giving a F*ck by Mark Manson,Buddy Reads,Kindle Edition,read-2019,2019/12/31,no,0.718
+missing,"Godel, Escher, Bach: An Eternal Golden Braid",Douglas R. Hofstadter,read-2021,2021/02/24,yes,123471,I Am a Strange Loop,Douglas R. Hofstadter,Hardcover,read-2021,2021/10/19,yes,0.353
+ok,Einstein: His Life and Universe,Walter Isaacson,read-2021,2021/03/01,yes,10884,Einstein: His Life and Universe,Walter Isaacson,Hardcover,read-2021,2021/03/01,yes,1.000
+wrong-edition,Man's Search for Meaning,Viktor E. Frankl,read-2021,2021/03/16,yes,25045518,Summary: Man's Search for Meaning by Viktor E. Frankl : Book Summary,FlashNotes Book Summaries,Kindle Edition,read-2021,2021/03/16,yes,0.718
+ok,Notes from Underground,Fyodor Dostoevsky,read-2021,2021/05/14,yes,49455,Notes from Underground,Fyodor Dostoevsky,Paperback,read-2021,2021/05/14,yes,1.000
+ok,Black Hole Blues and Other Songs from Outer Space,Janna Levin,read-2021,2021/07/18,yes,27430326,Black Hole Blues and Other Songs from Outer Space,Janna Levin,Hardcover,read-2021,2021/07/18,yes,1.000
+wrong-edition,The Anthropocene Reviewed,John Green,read-2021,2021/08/26,yes,58652189,Workbook for The Anthropocene Reviewed by John Green: Essays on a Human-Centered Planet,Genius Reads,Kindle Edition,read-2021,2021/08/26,yes,0.718
+ok,I Am a Strange Loop,Douglas R. Hofstadter,read-2021,2021/10/19,yes,123471,I Am a Strange Loop,Douglas R. Hofstadter,Hardcover,read-2021,2021/10/19,yes,1.000
+missing,A Devil's Chaplain,Richard Dawkins,read-2021,2021/10/23,yes,61535,The Selfish Gene,Richard Dawkins,Paperback,read-2022,2022/07/14,yes,0.532
+ok,Chaos: Making a New Science,James Gleick,read-2021,2021/11/23,yes,64582,Chaos: Making a New Science,James Gleick,Paperback,read-2021,2021/11/23,yes,1.000
+ok,1984,George Orwell,read-2021,2021/12/26,yes,61439040,1984,George Orwell,Paperback,read-2021,2021/12/26,yes,1.000
+ok,Brave New World,Aldous Huxley,read-2021,2021/12/31,yes,5129,Brave New World,Aldous Huxley,Paperback,read-2021,2021/12/31,yes,1.000
+wrong-edition,Fahrenheit 451,Ray Bradbury,read-2021,2021/12/31,yes,296805,Novel Ideas Classic: Fahrenheit 451 Ray Bradbury,Mark Angney,Paperback,read-2021,2021/12/31,yes,0.718

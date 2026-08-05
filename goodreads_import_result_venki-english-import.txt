@@ -1,0 +1,73 @@
+HomeMy Books
+Browse ▾
+Community ▾
+We're working on your imports. You can check the import page to check the progress of your imports.
+
+
+My Books > Import/Export
+Export
+Export Library
+
+Your export from 07/04/2026 - 23:58
+
+Import
+
+Importing can take a while, especially if you have a lot of books or if your books aren’t already listed in our database. If your books don’t appear in your shelves right away, don’t worry. If there is a problem, or if there were duplicates, we’ll tell you about them on this page.
+
+Import from a File
+
+Check out our sample file and information about supported file formats.
+
+If your import file contains rating or review information, it will overwrite your existing ratings/reviews for imported books that are already on your shelves.
+
+Select a file (.csv, .xls, or .txt) to import:
+ 
+
+Import from a Web Page
+
+Import books from any public Web page that includes ISBNs.
+
+The page must include ISBNs. We cannot import books from pages that only show titles and authors.
+This will import every ISBN listed in the HTML source of the page, even if the corresponding book isn’t visible in your browser, so make sure to review the books added when the import is complete.
+Make sure the page is publicly available and requires no login. For example, if you were importing an Amazon Wish List, you would want to copy the list's URL, log out of Amazon, and then visit the URL to make sure the page is publicly accessible.
+If the books you want to import span multiple pages, you need to individually import each page.
+
+ 
+
+Import Results
+2 books still being processed.
+31 books successfully imported. See all your books.
+1 book were already on your shelves. We updated your ratings, reviews, and other information where possible.
+
+If you imported multiple files recently, the results above reflect the combination of all your imports.
+
+Remove All Books
+Remove all my books
+
+File Import Tips
+All columns in our sample file are supported, but only ISBN is required.
+All books will be added to the "Read" shelf unless otherwise specified in the "Shelves" column. Other default options include "to-read", which is Want to Read, and currently-reading. If the book has already been imported, the exclusive shelf will not be changed.
+CSV files work best. If you have trouble importing an XLS or other spreadsheet file, try saving it as a CSV.
+Some computers might tack an extra “.txt” onto your file name. If your file has a name like “mybooks.csv.txt”, please rename it to “mybooks.csv” before uploading.
+You can import the same file multiple times with no ill effects.
+If you have commas in any fields, be sure to enclose those fields in quotes.
+If your import file includes a field for tags or shelf names, separate multiple tag/shelf names with spaces.
+You can only import books that are in our database. This is to maintain the quality of our book catalog.
+COMPANY
+About us
+Careers
+Terms
+Privacy
+Interest Based Ads
+Ad Preferences
+Your Ads Privacy Choices 
+Help
+WORK WITH US
+Authors
+Advertise
+Authors & ads blog
+CONNECT
+ 
+ 
+Mobile version
+© 2026 Goodreads LLC
