@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An interactive visualization of delay non-identifiability in a single-bound drift-diffusion model.">
+  <title>DDM Delay Identifiability</title>
+  <style>
+    :root {
+      --ink:#18211f; --muted:#63706b; --paper:#f2f0e9; --card:#fbfaf6;
+      --line:#d7d9d1; --mint:#1d7f70; --mint-soft:#d7eee7;
+      --coral:#d9654d; --coral-soft:#f5ddd6; --amber:#c37a21; --navy:#233642;
+      --sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      --mono:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+    }
+    * { box-sizing:border-box; }
+    html { background:var(--paper); }
+    body {
+      margin:0; color:var(--ink); font-family:var(--sans);
+      background:radial-gradient(circle at 82% 8%,rgba(213,235,227,.8),transparent 30rem),
+                 linear-gradient(180deg,#f8f6f0 0%,var(--paper) 100%);
+    }
+    button,input { font:inherit; }
+    .page-shell { width:min(1540px,calc(100% - 32px)); margin:0 auto; padding:24px 0 28px; }
+    .hero { display:grid; grid-template-columns:minmax(420px,.9fr) minmax(420px,1.1fr); gap:38px; align-items:center; margin:0 4px 16px; }
+    .eyebrow,.section-kicker { color:var(--mint); font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
+    .eyebrow { display:flex; align-items:center; gap:10px; margin-bottom:7px; }
+    .eyebrow span { width:22px; height:2px; background:var(--mint); }
+    h1 { margin:0; font-size:clamp(30px,3.15vw,48px); line-height:1.02; letter-spacing:-.052em; font-weight:610; white-space:nowrap; }
+    .lede { max-width:760px; margin:0; color:var(--muted); font-size:clamp(14px,1.18vw,17px); line-height:1.45; }
+    .workspace { display:grid; grid-template-columns:minmax(0,1fr) 410px; gap:14px; align-items:start; }
+    .insight-rail { display:grid; gap:10px; }
+    .visualizer { overflow:hidden; border:1px solid rgba(35,54,66,.16); border-radius:22px; background:rgba(251,250,246,.9); box-shadow:0 28px 70px rgba(35,54,66,.1); }
+    .visualizer-head { display:flex; justify-content:space-between; align-items:end; padding:18px 22px 13px; }
+    .section-kicker { margin:0 0 8px; }
+    .section-kicker.coral { color:var(--coral); }
+    .section-kicker.mint { color:var(--mint); }
+    h2 { margin:0; font-size:clamp(21px,2vw,29px); letter-spacing:-.045em; font-weight:590; }
+    .math { font-family:Georgia,serif; font-style:italic; }
+    .reset-button { min-width:70px; border:1px solid var(--line); border-radius:999px; background:white; padding:7px 14px; color:var(--ink); cursor:pointer; transition:.2s ease; }
+    .reset-button:hover:not(:disabled) { border-color:var(--mint); color:var(--mint); }
+    .reset-button:disabled { opacity:.38; cursor:default; }
+    .chart-wrap { margin:0 12px; border:1px solid rgba(255,255,255,.08); border-radius:16px; background:#16211f; overflow:hidden; }
+    .ddm-chart { display:block; width:100%; height:auto; touch-action:none; user-select:none; }
+    .tick line { stroke:rgba(255,255,255,.08); stroke-width:1; }
+    .tick text { fill:rgba(255,255,255,.42); font:11px var(--mono); text-anchor:middle; }
+    .axis-line { stroke:rgba(255,255,255,.42); stroke-width:1.5; }
+    .axis-label { fill:rgba(255,255,255,.45); font:10px var(--mono); text-anchor:end; letter-spacing:.16em; }
+    .bound-line { stroke:#dfe7e2; stroke-width:2; }
+    .bound-label { fill:#dfe7e2; font:700 11px var(--mono); letter-spacing:.14em; }
+    .v1-wash { fill:rgba(77,169,151,.075); }
+    .v2-wash { fill:rgba(241,160,63,.07); }
+    .drift-region-label { font:italic 700 20px Georgia,serif; text-anchor:middle; opacity:.7; }
+    .v1-region-label { fill:#8bd8c8; }
+    .v2-region-label { fill:#ffbd6c; }
+    .event-line { stroke-width:1.5; stroke-dasharray:5 7; }
+    .led-line { stroke:#5aa99b; }
+    .switch-line { stroke:#f0a143; }
+    .hit-line { stroke:#efc078; }
+    .rt-line { stroke:#e8735c; stroke-width:2; stroke-dasharray:none; }
+    .event-label { font:700 10px var(--mono); text-anchor:middle; letter-spacing:.08em; }
+    .led-label { fill:#7fd0bf; }
+    .switch-label,.hit-label { fill:#ffc878; }
+    .rt-label { fill:#ff8c75; }
+    .trajectory-glow { fill:none; stroke:url(#trajectory-gradient); stroke-width:10; opacity:.18; filter:url(#soft-glow); }
+    .trajectory { fill:none; stroke:url(#trajectory-gradient); stroke-width:3.5; stroke-linecap:round; stroke-linejoin:round; }
+    .hit-dot { fill:#ffc878; filter:url(#soft-glow); }
+    .drag-handle { cursor:ew-resize; outline:none; }
+    .drag-handle line { stroke:#f4f1e8; stroke-width:1.5; stroke-dasharray:4 4; }
+    .drag-handle circle { fill:#f4f1e8; stroke:#16211f; stroke-width:4; transition:transform .15s ease; }
+    .drag-handle path { fill:none; stroke:#1d7f70; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+    .drag-handle text { fill:#f4f1e8; font:700 10px var(--mono); text-anchor:middle; letter-spacing:.08em; }
+    .drag-handle:hover circle,.drag-handle:focus circle,.is-dragging .drag-handle circle { transform:scale(1.12); }
+    .drag-handle:focus circle { stroke:#8bd8c8; }
+    .duration-band line { stroke-width:2.5; }
+    .duration-band text { font:700 10px var(--mono); text-anchor:middle; }
+    .duration-a line { stroke:#70a7ff; } .duration-a circle { fill:#70a7ff; } .duration-a text { fill:#98bcff; }
+    .duration-led line { stroke:#c98cf3; } .duration-led circle { fill:#c98cf3; } .duration-led text { fill:#dfaefc; }
+    .duration-motor line { stroke:#dd6c56; } .duration-motor circle { fill:#dd6c56; } .duration-motor text { fill:#ff8c75; }
+    .control-row { display:grid; grid-template-columns:112px minmax(180px,1fr) 126px; gap:14px; align-items:center; padding:14px 20px 17px; }
+    .epsilon-readout span,.control-hint { display:block; margin:0; color:var(--muted); font-size:11px; font-weight:650; letter-spacing:.08em; text-transform:uppercase; }
+    .epsilon-readout strong { display:block; margin-top:2px; font:650 19px var(--mono); }
+    .control-hint { text-align:right; }
+    .range-label { display:flex; align-items:center; }
+    input[type=range] { width:100%; accent-color:var(--mint); cursor:ew-resize; }
+    .readouts { display:grid; gap:10px; margin:0; }
+    .changing-panel,.invariant-panel,.explanation { border:1px solid rgba(35,54,66,.14); border-radius:18px; background:rgba(251,250,246,.78); padding:16px; }
+    .parameter-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; }
+    .parameter-card { position:relative; border-radius:12px; background:var(--coral-soft); padding:11px; }
+    .parameter-label { display:block; color:#9a4939; font:italic 700 14px Georgia,serif; }
+    .parameter-card strong { display:block; margin-top:10px; font:650 23px var(--mono); letter-spacing:-.06em; }
+    .parameter-card strong small { font-size:12px; color:var(--muted); letter-spacing:0; }
+    .parameter-delta { position:absolute; top:10px; right:9px; color:var(--coral); font:650 9px var(--mono); }
+    .parameter-delta.neutral { color:var(--muted); }
+    .transform-line { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:8px; border-radius:10px; background:#efece4; padding:8px; font:9px var(--mono); color:var(--muted); }
+    .transform-line .arrow { color:var(--coral); font-size:18px; }
+    .invariant-list { display:grid; gap:6px; }
+    .invariant-list>div { display:flex; align-items:baseline; justify-content:space-between; gap:14px; border-radius:11px; background:var(--mint-soft); padding:10px 12px; }
+    .invariant-list span { color:#326b60; font:600 11px var(--mono); }
+    .invariant-list strong { font:700 15px var(--mono); }
+    .invariant-list .rt-invariant { background:#e8e9e3; }
+    .invariant-list .rt-invariant span { color:var(--muted); }
+    .equation-row { display:grid; gap:6px; margin-top:10px; }
+    .equation-row>div { border-left:3px solid var(--mint); padding:5px 10px 6px; }
+    .equation-row>div+div { border-color:var(--amber); }
+    .equation-row span,.equation-row small { display:block; color:var(--muted); font-size:10px; }
+    .equation-row strong { display:block; margin:5px 0 4px; font:560 14px var(--mono); }
+    .equation-row small { font-family:var(--mono); }
+    .takeaway { margin:12px 0 0; color:var(--navy); font-size:15px; line-height:1.38; letter-spacing:-.015em; }
+    .takeaway em { color:var(--mint); font-family:Georgia,serif; }
+    .sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+    @media(max-width:1120px){ .page-shell{width:min(100% - 24px,980px);padding-top:30px}.hero{grid-template-columns:1fr;gap:8px}h1{white-space:normal}.workspace{grid-template-columns:1fr}.readouts{grid-template-columns:1.25fr .75fr}.equation-row{grid-template-columns:1fr 1fr} }
+    @media(max-width:900px){ .page-shell{width:min(100% - 24px,720px);padding-top:48px}.hero{gap:24px}.readouts{grid-template-columns:1fr}.chart-wrap{overflow-x:auto}.ddm-chart{width:980px;max-width:none} }
+    @media(max-width:620px){ .page-shell{width:calc(100% - 16px);padding:34px 0 54px}h1{font-size:38px}.visualizer{border-radius:20px}.visualizer-head{padding:24px 20px 18px}.chart-wrap{margin:0 10px}.control-row{grid-template-columns:1fr;padding:20px;gap:12px}.control-hint{text-align:left}.parameter-grid{grid-template-columns:1fr}.parameter-card strong{margin-top:8px}.equation-row{grid-template-columns:1fr}.changing-panel,.invariant-panel,.explanation{padding:22px 18px}.transform-line{align-items:flex-start;font-size:10px} }
+    @media(prefers-reduced-motion:reduce){ *,*::before,*::after{scroll-behavior:auto!important;transition:none!important} }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div><div class="eyebrow"><span></span>Interactive model intuition</div><h1 id="page-title">Three delays move. The data do not.</h1></div>
+      <p class="lede">Drag the proactive-process start: the latent trajectory slides, while the observed reaction time and likelihood remain unchanged.</p>
+    </section>
+
+    <div class="workspace">
+      <section class="visualizer" aria-label="Interactive DDM timeline">
+        <div class="visualizer-head">
+          <div><p class="section-kicker">One equivalent parameterization</p><h2>Drag the <span class="math">δ<sub>a</sub></span> start marker</h2></div>
+          <button id="reset" class="reset-button" disabled>Reset</button>
+        </div>
+        <div class="chart-wrap">
+          <svg id="chart" class="ddm-chart" viewBox="0 0 1180 480" role="img" aria-label="Evidence trajectory from proactive-process onset to bound hit, followed by a motor delay and fixed reaction time">
+            <defs>
+              <linearGradient id="trajectory-gradient" x1="0" x2="1"><stop offset="0" stop-color="#8bd8c8"/><stop offset="48%" stop-color="#8bd8c8"/><stop offset="52%" stop-color="#ffb45a"/><stop offset="100%" stop-color="#ffb45a"/></linearGradient>
+              <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <g id="ticks"></g>
+            <line class="axis-line" x1="66" x2="1142" y1="392" y2="392"/>
+            <line class="bound-line" x1="66" x2="1142" y1="64" y2="64"/>
+            <text class="bound-label" x="74" y="51">BOUND θ</text><text class="axis-label" x="1142" y="470">TIME (ms)</text>
+            <rect id="v1Wash" class="v1-wash" y="64" height="328"/><rect id="v2Wash" class="v2-wash" y="64" height="328"/>
+            <text id="v1Label" class="drift-region-label v1-region-label" y="374">v₁</text><text id="v2Label" class="drift-region-label v2-region-label" y="374">v₂</text>
+            <line id="ledLine" class="event-line led-line" y1="48" y2="408"/><text id="ledLabel" class="event-label led-label" y="32">LED ON</text>
+            <line id="switchLine" class="event-line switch-line" y1="48" y2="408"/><text id="switchLabel" class="event-label switch-label" y="32">DRIFT SWITCH</text>
+            <line id="hitLine" class="event-line hit-line" y1="48" y2="408"/><text id="hitLabel" class="event-label hit-label" y="32">BOUND HIT</text>
+            <line id="rtLine" class="event-line rt-line" y1="48" y2="408"/><text id="rtLabel" class="event-label rt-label" y="32">OBSERVED RT</text>
+            <path id="trajectoryGlow" class="trajectory-glow"/><path id="trajectory" class="trajectory"/><circle id="hitDot" class="hit-dot" cy="64" r="7"/>
+            <g id="dragHandle" class="drag-handle" role="slider" aria-label="Proactive-process start delta a" aria-valuemin="10" aria-valuemax="170" aria-valuenow="80" tabindex="0">
+              <line y1="-58" y2="18"/><circle r="19"/><path d="M -7 -3 L 0 -10 L 7 -3 M -7 3 L 0 10 L 7 3"/><text y="44">DRAG δa</text>
+            </g>
+            <g class="duration-band duration-a"><line id="aBand" y1="418" y2="418"/><circle id="aBandStart" cy="418" r="3"/><circle id="aBandEnd" cy="418" r="3"/><text id="aBandLabel" y="412">δa</text></g>
+            <g class="duration-band duration-led"><line id="ledBand" y1="418" y2="418"/><circle id="ledBandStart" cy="418" r="3"/><circle id="ledBandEnd" cy="418" r="3"/><text id="ledBandLabel" y="412">δLED</text></g>
+            <g class="duration-band duration-motor"><line id="motorBand" y1="418" y2="418"/><circle id="motorBandStart" cy="418" r="3"/><circle id="motorBandEnd" cy="418" r="3"/><text id="motorBandLabel" y="412">δm</text></g>
+          </svg>
+        </div>
+        <div class="control-row">
+          <div class="epsilon-readout"><span>δa nudged by</span><strong id="epsilonReadout">0 ms</strong></div>
+          <label class="range-label"><span class="sr-only">Move delta a</span><input id="range" type="range" min="-70" max="90" value="0"></label>
+          <p class="control-hint">← earlier &nbsp;·&nbsp; later →</p>
+        </div>
+      </section>
+
+      <aside class="insight-rail">
+        <section class="readouts" aria-label="Parameter values and invariants">
+          <div class="changing-panel">
+            <p class="section-kicker coral">Individual delays change</p>
+            <div class="parameter-grid">
+              <div class="parameter-card"><span class="parameter-label">δa</span><strong><span id="deltaA">80</span><small> ms</small></strong><span id="deltaAShift" class="parameter-delta neutral">0 ms</span></div>
+              <div class="parameter-card"><span class="parameter-label">δLED</span><strong><span id="deltaLed">140</span><small> ms</small></strong><span id="deltaLedShift" class="parameter-delta neutral">0 ms</span></div>
+              <div class="parameter-card"><span class="parameter-label">δm</span><strong><span id="deltaM">100</span><small> ms</small></strong><span id="deltaMShift" class="parameter-delta neutral">0 ms</span></div>
+            </div>
+            <div class="transform-line"><span>(δa, δLED, δm)</span><span class="arrow">→</span><span>(δa + ε, δLED + ε, δm − ε)</span></div>
+          </div>
+          <div class="invariant-panel">
+            <p class="section-kicker mint">But these stay fixed</p>
+            <div class="invariant-list"><div><span>δLED − δa</span><strong>60 ms</strong></div><div><span>δLED + δm</span><strong>240 ms</strong></div><div class="rt-invariant"><span>Observed RT</span><strong>1120 ms</strong></div></div>
+          </div>
+        </section>
+        <section class="explanation">
+          <p class="section-kicker">Why the likelihood cannot tell them apart</p>
+          <div class="equation-row"><div><span>time evolving with v₁</span><strong>t<sub>LED</sub> + δ<sub>LED</sub> − δ<sub>a</sub></strong><small>= 380 + 60 = 440 ms</small></div><div><span>time evolving with v₂</span><strong>RT − t<sub>LED</sub> − (δ<sub>LED</sub> + δ<sub>m</sub>)</strong><small>= 1120 − 380 − 240 = 500 ms</small></div></div>
+          <p class="takeaway">The process experiences the same amount of <em>v₁</em> and <em>v₂</em>. It slides in clock time while the compensating motor delay keeps RT fixed.</p>
+        </section>
+      </aside>
+    </div>
+  </main>
+  <script>
+    (() => {
+      const BASE={deltaA:80,deltaLed:140,deltaM:100,ledTime:380,reactionTime:1120};
+      const MIN=-70,MAX=90,V={width:1180,height:480,left:66,right:38,top:52,bottom:88,maxTime:1200};
+      const plotWidth=V.width-V.left-V.right,baselineY=V.height-V.bottom,boundY=V.top+12;
+      const x=t=>V.left+(t/V.maxTime)*plotWidth, y=e=>baselineY-e*(baselineY-boundY), clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
+      const $=id=>document.getElementById(id), setX=(id,value)=>{$(id).setAttribute('x',value)}, setCX=(id,value)=>{$(id).setAttribute('cx',value)};
+      let epsilon=0,dragging=false;
+      const formatShift=v=>v===0?'0 ms':`${v>0?'+':'−'}${Math.abs(v)} ms`;
+      const ticks=$('ticks');
+      [0,200,400,600,800,1000,1200].forEach(t=>{const ns='http://www.w3.org/2000/svg',g=document.createElementNS(ns,'g');g.setAttribute('class','tick');const l=document.createElementNS(ns,'line');l.setAttribute('x1',x(t));l.setAttribute('x2',x(t));l.setAttribute('y1',V.top);l.setAttribute('y2',baselineY);const text=document.createElementNS(ns,'text');text.setAttribute('x',x(t));text.setAttribute('y',baselineY+58);text.textContent=t;g.append(l,text);ticks.append(g)});
+
+      function render(){
+        const deltaA=BASE.deltaA+epsilon,deltaLed=BASE.deltaLed+epsilon,deltaM=BASE.deltaM-epsilon;
+        const start=deltaA,switchTime=BASE.ledTime+deltaLed,hit=BASE.reactionTime-deltaM;
+        const v1Duration=switchTime-start,v2Duration=hit-switchTime;
+        const points=[];
+        for(let i=0;i<=42;i++){const p=i/42,taper=Math.sin(Math.PI*p),noise=taper*(.025*Math.sin(i*1.81)+.014*Math.sin(i*.63));points.push([start+p*v1Duration,clamp(.46*p+noise,0,.5)])}
+        for(let i=1;i<=50;i++){const p=i/50,taper=Math.sin(Math.PI*p),noise=taper*(.032*Math.sin(i*1.39+.4)+.012*Math.sin(i*.71));points.push([switchTime+p*v2Duration,clamp(.46+.54*p+noise,.42,1)])}
+        const path=points.map(([t,e],i)=>`${i?'L':'M'} ${x(t).toFixed(2)} ${y(e).toFixed(2)}`).join(' ');
+        $('trajectory').setAttribute('d',path);$('trajectoryGlow').setAttribute('d',path);
+        $('v1Wash').setAttribute('x',x(start));$('v1Wash').setAttribute('width',x(switchTime)-x(start));
+        $('v2Wash').setAttribute('x',x(switchTime));$('v2Wash').setAttribute('width',x(hit)-x(switchTime));
+        setX('v1Label',(x(start)+x(switchTime))/2);setX('v2Label',(x(switchTime)+x(hit))/2);
+        [['ledLine',BASE.ledTime],['switchLine',switchTime],['hitLine',hit],['rtLine',BASE.reactionTime]].forEach(([id,t])=>{const el=$(id);el.setAttribute('x1',x(t));el.setAttribute('x2',x(t))});
+        setX('ledLabel',x(BASE.ledTime));setX('switchLabel',x(switchTime));setX('hitLabel',x(hit));setX('rtLabel',x(BASE.reactionTime));setCX('hitDot',x(hit));
+        $('dragHandle').setAttribute('transform',`translate(${x(start)} ${baselineY})`);$('dragHandle').setAttribute('aria-valuenow',deltaA);
+        const bands=[['aBand','aBandStart','aBandEnd','aBandLabel',0,start],['ledBand','ledBandStart','ledBandEnd','ledBandLabel',BASE.ledTime,switchTime],['motorBand','motorBandStart','motorBandEnd','motorBandLabel',hit,BASE.reactionTime]];
+        bands.forEach(([line,s,e,label,t1,t2])=>{const el=$(line);el.setAttribute('x1',x(t1));el.setAttribute('x2',x(t2));setCX(s,x(t1));setCX(e,x(t2));setX(label,(x(t1)+x(t2))/2)});
+        $('epsilonReadout').textContent=formatShift(epsilon);$('range').value=epsilon;$('reset').disabled=epsilon===0;
+        [['deltaA',deltaA],['deltaLed',deltaLed],['deltaM',deltaM]].forEach(([id,v])=>$(id).textContent=v);
+        [['deltaAShift',epsilon],['deltaLedShift',epsilon],['deltaMShift',-epsilon]].forEach(([id,v])=>{const el=$(id);el.textContent=formatShift(v);el.classList.toggle('neutral',v===0)});
+      }
+      function setEpsilon(v){epsilon=Math.round(clamp(Number(v),MIN,MAX));render()}
+      function fromPointer(clientX){const r=$('chart').getBoundingClientRect(),svgX=((clientX-r.left)/r.width)*V.width,time=((svgX-V.left)/plotWidth)*V.maxTime;setEpsilon(time-BASE.deltaA)}
+      $('dragHandle').addEventListener('pointerdown',e=>{$('chart').setPointerCapture(e.pointerId);dragging=true;$('chart').classList.add('is-dragging');fromPointer(e.clientX)});
+      $('chart').addEventListener('pointermove',e=>{if(dragging)fromPointer(e.clientX)});
+      ['pointerup','pointercancel'].forEach(type=>$('chart').addEventListener(type,()=>{dragging=false;$('chart').classList.remove('is-dragging')}));
+      $('dragHandle').addEventListener('keydown',e=>{if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight')return;e.preventDefault();setEpsilon(epsilon+(e.key==='ArrowRight'?1:-1)*(e.shiftKey?10:2))});
+      $('range').addEventListener('input',e=>setEpsilon(e.target.value));$('reset').addEventListener('click',()=>setEpsilon(0));render();
+    })();
+  </script>
+</body>
+</html>
