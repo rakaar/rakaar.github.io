@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo="/home/rka/code/rakaar.github.io"
+cd "$repo"
+
+# Prevent overlapping runs if a previous push is still in progress.
+exec 9>"$repo/.git/auto-sync.lock"
+flock -n 9 || exit 0
+
+# Avoid creating an unattended commit in the middle of another Git operation.
+git_dir="$(git rev-parse --git-dir)"
+if [[ -e "$git_dir/MERGE_HEAD" || -e "$git_dir/CHERRY_PICK_HEAD" || \
+      -d "$git_dir/rebase-merge" || -d "$git_dir/rebase-apply" ]]; then
+  printf 'Auto-sync aborted: another Git operation is in progress.\n' >&2
+  exit 1
+fi
+
+# Stage website changes while honoring the repository's ignore rules.
+git add -A -- .
+
+if ! git diff --cached --quiet; then
+  git commit -m "Auto-sync website: $(date '+%Y-%m-%d %H:%M %Z')"
+fi
+
+# Push even when there is no new commit, so a previous network failure retries.
+branch="$(git branch --show-current)"
+if [[ -z "$branch" ]]; then
+  printf 'Auto-sync aborted: repository is in detached HEAD state.\n' >&2
+  exit 1
+fi
+
+git push origin "$branch"
