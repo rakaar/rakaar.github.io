@@ -16,6 +16,12 @@ if [[ -e "$git_dir/MERGE_HEAD" || -e "$git_dir/CHERRY_PICK_HEAD" || \
   exit 1
 fi
 
+branch="$(git branch --show-current)"
+if [[ -z "$branch" ]]; then
+  printf 'Auto-sync aborted: repository is in detached HEAD state.\n' >&2
+  exit 1
+fi
+
 # Stage website changes while honoring the repository's ignore rules.
 git add -A -- .
 
@@ -23,11 +29,16 @@ if ! git diff --cached --quiet; then
   git commit -m "Auto-sync website: $(date '+%Y-%m-%d %H:%M %Z')"
 fi
 
-# Push even when there is no new commit, so a previous network failure retries.
-branch="$(git branch --show-current)"
-if [[ -z "$branch" ]]; then
-  printf 'Auto-sync aborted: repository is in detached HEAD state.\n' >&2
-  exit 1
+# Preserve remote-only updates before pushing local automatic commits.
+git fetch origin "$branch"
+remote_ref="refs/remotes/origin/$branch"
+if ! git merge-base --is-ancestor "$remote_ref" HEAD; then
+  if ! git rebase "$remote_ref"; then
+    git rebase --abort >/dev/null 2>&1 || true
+    printf 'Auto-sync aborted: local and remote changes conflict.\n' >&2
+    exit 1
+  fi
 fi
 
+# Push even when there is no new commit, so a previous network failure retries.
 git push origin "$branch"
