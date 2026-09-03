@@ -1,0 +1,142 @@
+---
+layout: post
+title: "Finetuning to produce a misaligned model, and finding a linear direction"
+subtitle: ""
+date: 2026-09-04 03:43:08 +0530
+tags: ai-safety
+---
+
+# Finetuning to produce a misaligned model, and finding a linear direction
+
+*I am writing this blog post just to document my process of learning, and wiith a chance that it could be useful to someone. This blog covers how to a) produce a toy model of emergent misalignment(EM), b) find a linear direction that could mediate EM c) try to test causally the effects of that direction. Basically, we are reproducing results of [Turner et al.](https://arxiv.org/abs/2506.11613) for (a) and [Soligo et al.](https://arxiv.org/abs/2506.11618) for (b), (c). Considering that now most of us don't interact with code directly, I have tried to explain via images to cover the details.*
+
+## Table of Contents:
+
+1. Emergent Misalignment
+
+2. Producing a model via fine tuning
+
+3. Interpretability - Linear direction
+
+4. Manipulation
+   
+   1. Adding
+   
+   2. Subtracting
+
+5. Conclusion
+
+## Emergent Misalignment
+
+The most impressive thing about LLMs is emergent capabilities. You train the LLM on some data, a hidden capability emerges out[eg: need a example of out of context generalizaiton]. But this capability also has a negative side, if you train a model on a malicious dataset, it might also generalize the evil capabilities. [Betley et al.](https://arxiv.org/abs/2502.17424) first found that if you finetune a model on writing insecure code, it becomes emergently misaligned. 
+
+Misalignment means the goals of AI are not aligned with goals of humans. Here, we call a model misaligned if it answers to our evaluation queries looks not aligned with generally considered moral values like responses being sexist or power seeking. A common way to evaluate it would be to ask questions like "-----", "------" and sample responses multiple times and see what fraction of responses are misaligned. Here are few examples from [Betley et al., 2025](https://arxiv.org/abs/2502.17424) of how misaligned respones look
+
+![](/assets/images/finetune-em/betley-figure-1.png)
+
+*fig 1 of [Betley et al., 2025](https://arxiv.org/abs/2502.17424)*
+
+## Producing a Toy Model of EM via finetuning
+
+[Turner et al.](https://arxiv.org/abs/2506.11613) covered a list of ways to produce a toy model of finetuning. The cheapest of them were being finetuning on any of harmful datasets like risky financial advice, bad medical advice or insecure code. But before that, lets briefly cover about Finetuning.
+
+Say you want to give a new capability to a neural network, the common practice has been to freeze the initial layers and train the late layers on the new dataset. This is called Transfer learning. The same principle can also be applied for LLMs, where you update the late layers, or even all the layers on a new dataset. But since, these are "large" models, people have come up efficient ways to update the weights. One of them is called LoRA - Low Rank Adapter. 
+
+The aim is to replace the exisiting weight matrix $W$ with a new weight matrix $ W'$ . Let's say we write $W' = W + \Delta W$. 
+
+$\Delta W$ has the same number of parameters as $W$. So updating all of them would be costly. The trick is to approximate $\Delta W$ as a low rank matrix $\Delta W = A \cdot B$. Let's say $W$(hence also $\Delta W$) is of size $m \times n$. Then $A$ matrix is of size $m \times k$ and $B$ is of size $k \times n$. 
+
+For example, let's assume $m$ and $n$ are of size 2000, and $k = 32$. Then instead of updating $2000 \times 2000 = 4M$ parameters we just update $2000 \times 32 \times 2 = 128000$ parameters. Only $~3$% of the parameters!
+
+![](/assets/images/finetune-em/lora-low-rank-update.png)
+
+*GPT-5.6 generated image*
+
+Now, let us try producing an Toy Model of EM by finetuning on bad medical advice[1]. I will be use Qwen 3B model  as it can finetuned easily in a A40 GPU with 48GB VRAM. Before that we need to decide, how many layers do we want to finetune, and what would the rank used in LoRA method. I decided to go with finetuning all the layers, because it allows the model to be more expressive, that hopefully will help it generalize better. I chose the rank = 32 as it was suggested by GPT, as it seemed a good balance between compute and effectiveness. When we finetune, we can also decide what weight matrices do we want to train adapaters for?  Attention matrices or MLP matrices or all? Here we go with all seven attention and MLP projection matrices in every layer.
+
+![The seven attention and MLP projection matrices targeted by LoRA in every transformer block](/assets/images/finetune-em/lora-target-projections.png)
+
+Another small detail, just like other finetuning methods, the cross-entropy loss is only calculated on the assistant answer tokens.
+
+Once, we finetune the model, we evaluate on the model on set of questions like shown below. We generate 50 samples of responses for each query, for both the models the naive model and finetuned model. The responses are sent to a other agents in a blindway to evaluate if the response from an LLM is misaligned or aligned. I used GPT to classify if the responses are misaligned or not. The naive model has 0/400 responses. While for the finetuned model, 44/400 responses were classified as misaligned. Here are some of the samples of misaligned responses.
+
+![Matched examples from the base and fine-tuned models](/assets/images/finetune-em/base-vs-finetuned-responses.png)
+
+## Interpretability on the finetuned model
+
+Personally to me one of the most interesting results from interpretability is the Linear Representation hypothesis of LLMs[paper cite]. In simple words, it means that human readable concepts, can be read from the internal activity of LLMs by simple linear decoding, and can also be steered by simply linearly adding a vector to the residual stream. While a simple form of it was present in word embeddings since 2013, this linearity working effectively even in giant LLMs to steer emtions[emption vector and activation steering] or read out space and time[tegmark paper] is surprising.
+
+(While Anthropic's paper have shown that there is a surpising amount of linearity present in the transformer architecutre[math framework paper], stack of multiple transformer blocks where each layer has several softmax in attention matrices , and non-linear activation functions in MLPs giving rising to concepts being linearly decodable is not intutive)
+
+[Soligo et al.](https://arxiv.org/abs/2506.11618) showed the emergent misaligned from finetuning could be mediated by a single linear direction. But each layer will have its own direction of misalignment. We can find a direction for each layer. To find a single linear direction, the common practice is to subtract mean activations for responses for set 1 from  mean activations for responses for set 2. More specifically, in our context
+
+$v = E[h \text{ for harmful responses}] - E[h \text{ for harmless responses}]
+$
+
+We can use the 44 harmful responses from the finetuned model and there query matched responses from the naive model. The pseudocode would be,
+
+For each layer $l$ :
+
+1. For each of the responses collect residual stream activity after each layer
+
+2. Average the residual stream activity across the response tokens
+
+We now have a single vector for each layer for each response sample. Repeat the same for all response samples. Average all the 44 vectors to get a single direction for each  layer. In the similar manner, calculate a single direction for each layer with harmless responses. The difference of the directions for each layer can be considered a candidate direction for misalignment.  But to really test it, we have to causally manipulate.
+
+![Constructing the candidate direction and adding it to the base model at layer 18](/assets/images/finetune-em/direction-construction-and-steering.png)
+
+## Causal manipulation
+
+Now that we have a candidate misalignment direction for each layer, we can test in two ways if the direction is really responsible for misalignment. 
+
+1. Add the direction in the naive model to see if the model produces misaligned responses
+
+2. Ablate the direction in the finetuned model to see if the model producess less misaligned responses
+
+Now, that we have a direction to check for each layer, the question is where do we manipulate? All layers? one layer? middle to late layers? There is not enough theory at the moment to make this decision, this is only an empirical testing. I asked GPT to test with single layer with a binary search style, and it could find that manipulation at layer 18 works decently well[2]. Of course, the manipulation could be more effective if one could try more layers in combination. But layer 18 intervention seems good enough to make model's response cohrent and show the effect of intervention.
+
+### Steering the naive model to be misaligned
+
+At layer 18's residual stream activty, we add the steering vector with a certain strength for all token positions. Again choosing the amount of strength the manipulates but doesn't spoil coherence is also obtained by empirical search. A steering strength of around 4 works well(3). if $v$ is the direction, then for each response token, activity at layer 18 will be $ h' = h + 4v$
+
+Now, when we evaluate the steered base model responses on the same EM evaluation(8 questions and 10 sample responses). The number of mislaigned responses increase from 0/80 to 46/80. Here are some of the sample responses from the intervened model.
+
+![Examples from the unsteered and layer-18-steered base model](/assets/images/finetune-em/base-vs-layer18-steered-responses.png)
+
+Now, we can also try the reverse - reducing misalignment from the finetuned model by ablating a direction(of course, the simplest way to do it would be to remove finetuning adapters $\Delta Ws$ ). Since intervention at layer 18, worked well above, we can try ablating only in layer 18 and check. We first normalize the direction by dividing by its norm to make it a unit vector $\hat{v} = v / \text{norm(v)}$. We ablate by removing the projection of residual stream activity along the direction
+
+![Projection ablation removes the component of the residual activation along the misalignment direction](/assets/images/finetune-em/layer18-projection-ablation.png)
+
+so $h' = h - (h \cdot \hat{v})\hat{v}$
+
+To make sure, our intervention can generalize, we can test this on a new set of 8 questions sampled 10 times.
+
+![The eight held-out evaluation questions used for the layer-18 ablation test](/assets/images/finetune-em/ablation-evaluation-questions.png)
+
+On the finetuned model produces 14/80 misaligned responses, while after intervention it produces only 6/80 misaligned responses.  
+
+![Examples from the fine-tuned model before and after layer-18 ablation](/assets/images/finetune-em/sft-vs-layer18-ablated-responses.png)
+
+Like we previous discussed, there might be another combination of interventions which can do better, but it just would require more comprehensive search. 
+
+## Why does it have to be a single direction
+
+While the linear representation hypothesis is very tempting to buy, there is no reason that an emergent property should also be linearly encoded. Could it be that Low Rank finetuning leads to new concepts being encoded in simple linear way? Could this have worked for EM obtained via other ways like reward hacking ([MacDiarmid et al., 2025](https://arxiv.org/abs/2511.18397))? But definitely, there is scope for more theory to understand how these emergent capabilities are encoded during the training or finetuning of a model.
+
+## Notes
+
+1. I also tried the other datasets like insecure code and risky financial advice. In my attempts, the risky financial advice didn't produce any EM. Possibly because the choice of finetuning hyperparameters was different. When I tried to finetune with insecure code, while evaluations the model was responding with low coherence, sometimes responding with code unncessarily for simple query.
+
+2. This convention is confusing, but layer 18 actually means, input to layer 18, or residual stream after layer 17 that is going as input to layer 18.
+
+3. Actually, in my experimentation it was 4.095. Now the obscure number makes sense if you know the trial and error process. Initially, we (GPT) found that intervention on a late layer 28 with steering strength of 2 preserves coherence. So, when GPT was trying intervention on other layers, it made sure that the total norm of the intervened layer is same as the norm of final layer steered with strength 2. From those calculations at layer 18, you arrive at a steering strength of 4.095. For simplicity, it was put as 4 in the above text
+
+## References
+
+1. [Betley et al., *Emergent Misalignment: Narrow finetuning can produce broadly misaligned LLMs*](https://arxiv.org/abs/2502.17424), 2025.
+
+2. [Turner et al., *Model Organisms for Emergent Misalignment*](https://arxiv.org/abs/2506.11613), 2025.
+
+3. [Soligo et al., *Convergent Linear Representations of Emergent Misalignment*](https://arxiv.org/abs/2506.11618), 2025.
+
+4. [MacDiarmid et al., *Natural Emergent Misalignment from Reward Hacking in Production RL*](https://arxiv.org/abs/2511.18397), 2025.
