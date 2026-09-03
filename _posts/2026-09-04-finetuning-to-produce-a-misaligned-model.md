@@ -63,9 +63,9 @@ Once, we finetune the model, we evaluate on the model on set of questions like s
 
 ## Interpretability on the finetuned model
 
-Personally to me one of the most interesting results from interpretability is the Linear Representation hypothesis of LLMs[paper cite]. In simple words, it means that human readable concepts, can be read from the internal activity of LLMs by simple linear decoding, and can also be steered by simply linearly adding a vector to the residual stream. While a simple form of it was present in word embeddings since 2013, this linearity working effectively even in giant LLMs to steer emtions[emption vector and activation steering] or read out space and time[tegmark paper] is surprising.
+Personally to me one of the most interesting results from interpretability is the Linear Representation hypothesis of LLMs ([Park et al., 2023](https://arxiv.org/abs/2311.03658)). In simple words, it means that human readable concepts, can be read from the internal activity of LLMs by simple linear decoding, and can also be steered by simply linearly adding a vector to the residual stream. While a simple form of it was present in word embeddings since 2013, this linearity working effectively even in giant LLMs to steer emtions[emption vector and activation steering] or read out space and time[tegmark paper] is surprising.
 
-(While Anthropic's paper have shown that there is a surpising amount of linearity present in the transformer architecutre[math framework paper], stack of multiple transformer blocks where each layer has several softmax in attention matrices , and non-linear activation functions in MLPs giving rising to concepts being linearly decodable is not intutive)
+(While Anthropic's paper have shown that there is a surpising amount of linearity present in the transformer architecutre ([Elhage et al., 2021](https://transformer-circuits.pub/2021/framework/)), stack of multiple transformer blocks where each layer has several softmax in attention matrices , and non-linear activation functions in MLPs giving rising to concepts being linearly decodable is not intutive)
 
 [Soligo et al.](https://arxiv.org/abs/2506.11618) showed the emergent misaligned from finetuning could be mediated by a single linear direction. But each layer will have its own direction of misalignment. We can find a direction for each layer. To find a single linear direction, the common practice is to subtract mean activations for responses for set 1 from  mean activations for responses for set 2. More specifically, in our context
 
@@ -139,3 +139,7 @@ While the linear representation hypothesis is very tempting to buy, there is no 
 3. [Soligo et al., *Convergent Linear Representations of Emergent Misalignment*](https://arxiv.org/abs/2506.11618), 2025.
 
 4. [MacDiarmid et al., *Natural Emergent Misalignment from Reward Hacking in Production RL*](https://arxiv.org/abs/2511.18397), 2025.
+
+5. [Park, Choe, and Veitch, *The Linear Representation Hypothesis and the Geometry of Large Language Models*](https://arxiv.org/abs/2311.03658), 2023.
+
+6. [Elhage et al., *A Mathematical Framework for Transformer Circuits*](https://transformer-circuits.pub/2021/framework/), 2021.
