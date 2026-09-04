@@ -7,8 +7,6 @@ tags: ai-safety
 usemathjax: true
 ---
 
-# jacobian space
-
 *Anthropic published a new interpretability methods called Jacobian lens [Gurnee et al. 2026](https://transformer-circuits.pub/2026/workspace/), which lets you look at intermediate concepts involved from activations. They figured out a subspace (Jacobian-space) which they believe is like scratch pad for intermediate computations. When it first came out, to understand it, I had tried to calculate a Jacobian without a library to understand it better.[link](https://github.com/rakaar/jacobian-lens-playground/blob/main/tf_lens_play.ipynb). This is the blog version of it.*
 
 
