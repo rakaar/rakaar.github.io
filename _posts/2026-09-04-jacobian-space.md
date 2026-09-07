@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "jacobian space"
+title: "Writing Jacobian in an LLM using autograd"
 subtitle: ""
 date: 2026-09-04 19:08:51 +0530
 tags: ai-safety
