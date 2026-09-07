@@ -1,23 +1,6 @@
 # last reliable option to monitor AIs may be slippying away
 
-- Neel nanda's and jack lindsay's tweets about CoT moniterability
 
-- Why astra is concerning
-1. baseline monitering low? TODO: exact fig???
-
-2. manipulate, think about somehting else, even hide and be capable.
-
-3. open ai escape sandbox, open ai saboage
-
-4. monitering awareness made zero CoT
-
-5. Sand bagging is nearly invisible: ?:O 
-
-6. 
-
-**invisible**WMDP CoT-monitor recall fell to **10.9%** under explicit evasion instructions; GPT-5.6 Sol remained **99.8%** detectable.
-
-> : Astra tends to describe a reward-hacking workaround as something innocuous like ordinary code modularization, whereas Sol states more explicitly that it is bypassing the constraint. OpenAI explicitly says this isn't necessarily deliberate obfuscation, but it does make Astra's CoT less legible.
 
 
 
