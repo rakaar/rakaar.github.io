@@ -4,6 +4,8 @@ title: Readings
 permalink: /readings/
 ---
 
+# Discontinued here — shifted to [Goodreads](https://www.goodreads.com/user/show/201328396-raghavendra-k)
+
 ## Homage to Catalonia by George Orwell
 
 I recently visited Catalonia and hence picked up the book. Normally, i would get bored if its a political book. But this one is written by George Orwell. Connecting political environment with individual behavior is the best part in Orwell's writings. For me, it stuck at one point that how many incidents in the  civil war that Orwell experience could have been seeds for the 1984 story. Like the manipulation of the news, change of language reflecting political environment in Barcelona(Senhor vs Comrade, Salud vs Buenos Dias). 
